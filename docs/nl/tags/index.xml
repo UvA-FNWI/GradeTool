@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cijferregistratieapplicatie – Tags</title>
-    <link>/nl/tags/</link>
+    <link>https://uva-fnwi.github.io/GradeTool/nl/tags/</link>
     <description>Recent content in Tags on Cijferregistratieapplicatie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	  <atom:link href="/nl/tags/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://uva-fnwi.github.io/GradeTool/nl/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
       

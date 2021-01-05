@@ -3,44 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://uva-fnwi.github.io/GradeTool/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="/nl/categories/"
+                href="https://uva-fnwi.github.io/GradeTool/nl/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="https://uva-fnwi.github.io/GradeTool/categories/"
                 />
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://uva-fnwi.github.io/GradeTool/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="/nl/"
+                href="https://uva-fnwi.github.io/GradeTool/nl/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="https://uva-fnwi.github.io/GradeTool/"
                 />
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://uva-fnwi.github.io/GradeTool/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="/nl/tags/"
+                href="https://uva-fnwi.github.io/GradeTool/nl/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="https://uva-fnwi.github.io/GradeTool/tags/"
                 />
   </url>
   

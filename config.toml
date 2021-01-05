@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://uva-fnwi.github.io/GradeTool/"
 languageCode = "en-us"
 title = "GradeTool"
 theme = "docsy"

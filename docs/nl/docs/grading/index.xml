@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cijferregistratieapplicatie – Invoeren cijfers</title>
-    <link>/nl/docs/grading/</link>
+    <link>https://uva-fnwi.github.io/GradeTool/nl/docs/grading/</link>
     <description>Recent content in Invoeren cijfers on Cijferregistratieapplicatie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 03 Jan 2021 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="/nl/docs/grading/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://uva-fnwi.github.io/GradeTool/nl/docs/grading/index.xml" rel="self" type="application/rss+xml" />
     
     
       

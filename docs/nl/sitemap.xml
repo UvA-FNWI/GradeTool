@@ -3,65 +3,65 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/nl/docs/constraints/</loc>
+    <loc>https://uva-fnwi.github.io/GradeTool/nl/docs/constraints/</loc>
     <lastmod>2021-01-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/nl/docs/grading/</loc>
+    <loc>https://uva-fnwi.github.io/GradeTool/nl/docs/grading/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/nl/docs/admin/</loc>
+    <loc>https://uva-fnwi.github.io/GradeTool/nl/docs/admin/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/nl/docs/</loc>
+    <loc>https://uva-fnwi.github.io/GradeTool/nl/docs/</loc>
     <lastmod>2021-01-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/nl/</loc>
+    <loc>https://uva-fnwi.github.io/GradeTool/nl/</loc>
     <lastmod>2021-01-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="https://uva-fnwi.github.io/GradeTool/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="/nl/"
+                href="https://uva-fnwi.github.io/GradeTool/nl/"
                 />
   </url>
   
   <url>
-    <loc>/nl/categories/</loc>
+    <loc>https://uva-fnwi.github.io/GradeTool/nl/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="https://uva-fnwi.github.io/GradeTool/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="/nl/categories/"
+                href="https://uva-fnwi.github.io/GradeTool/nl/categories/"
                 />
   </url>
   
   <url>
-    <loc>/nl/tags/</loc>
+    <loc>https://uva-fnwi.github.io/GradeTool/nl/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="https://uva-fnwi.github.io/GradeTool/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="/nl/tags/"
+                href="https://uva-fnwi.github.io/GradeTool/nl/tags/"
                 />
   </url>
   
