@@ -1,0 +1,21 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "GradeTool"
+theme = "docsy"
+contentDir = "content/en"
+publishDir = "docs"
+
+[languages]
+[languages.en]
+title = "Grading"
+description = "Grade tool documentation"
+languageName ="English"
+# Weight used for sorting.
+weight = 1
+[languages.nl]
+title = "Cijferregistratieapplicatie"
+contentDir = "content/nl"
+description = "Documentatie cijferregistratieapplicatie"
+languageName ="Nederlands"
+time_format_default = "02-01-2006"
+time_format_blog = "02-01-2006"
