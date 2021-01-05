@@ -4,6 +4,7 @@ title = "GradeTool"
 theme = "docsy"
 contentDir = "content/en"
 publishDir = "docs"
+canonifyURLs = true
 
 [languages]
 [languages.en]
