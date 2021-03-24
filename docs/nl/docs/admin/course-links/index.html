@@ -17,24 +17,24 @@
 <link rel="icon" type="image/png" href="https://uva-fnwi.github.io/GradeTool/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="https://uva-fnwi.github.io/GradeTool/favicons/android-192x192.png" sizes="192x192">
 
-<title>Herinneringsmails | Cijferregistratieapplicatie</title><meta property="og:title" content="Herinneringsmails" />
-<meta property="og:description" content="Inplannen van herinneringsmails voor docenten die nog cijfers moeten inleveren" />
+<title>Gekoppelde cursussen | Cijferregistratieapplicatie</title><meta property="og:title" content="Gekoppelde cursussen" />
+<meta property="og:description" content="Koppelen van cursussen t.b.v. cross-listing" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://uva-fnwi.github.io/GradeTool/nl/docs/admin/reminders/" />
-<meta property="article:published_time" content="2021-03-19T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-03-19T00:00:00+00:00" /><meta property="og:site_name" content="Cijferregistratieapplicatie" />
-<meta itemprop="name" content="Herinneringsmails">
-<meta itemprop="description" content="Inplannen van herinneringsmails voor docenten die nog cijfers moeten inleveren">
-<meta itemprop="datePublished" content="2021-03-19T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2021-03-19T00:00:00+00:00" />
-<meta itemprop="wordCount" content="239">
+<meta property="og:url" content="https://uva-fnwi.github.io/GradeTool/nl/docs/admin/course-links/" />
+<meta property="article:published_time" content="2021-03-24T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-03-24T00:00:00+00:00" /><meta property="og:site_name" content="Cijferregistratieapplicatie" />
+<meta itemprop="name" content="Gekoppelde cursussen">
+<meta itemprop="description" content="Koppelen van cursussen t.b.v. cross-listing">
+<meta itemprop="datePublished" content="2021-03-24T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2021-03-24T00:00:00+00:00" />
+<meta itemprop="wordCount" content="190">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Herinneringsmails"/>
-<meta name="twitter:description" content="Inplannen van herinneringsmails voor docenten die nog cijfers moeten inleveren"/>
+<meta name="twitter:title" content="Gekoppelde cursussen"/>
+<meta name="twitter:description" content="Koppelen van cursussen t.b.v. cross-listing"/>
 
 
 
@@ -218,7 +218,7 @@
         
           
           
-          <a class="td-sidebar-link td-sidebar-link__page " id="m-nldocsadmincourse-links" href="https://uva-fnwi.github.io/GradeTool/nl/docs/admin/course-links/">Gekoppelde cursussen</a>
+          <a class="td-sidebar-link td-sidebar-link__page  active" id="m-nldocsadmincourse-links" href="https://uva-fnwi.github.io/GradeTool/nl/docs/admin/course-links/">Gekoppelde cursussen</a>
         
       
       
@@ -226,7 +226,7 @@
         
           
           
-          <a class="td-sidebar-link td-sidebar-link__page  active" id="m-nldocsadminreminders" href="https://uva-fnwi.github.io/GradeTool/nl/docs/admin/reminders/">Herinneringsmails</a>
+          <a class="td-sidebar-link td-sidebar-link__page " id="m-nldocsadminreminders" href="https://uva-fnwi.github.io/GradeTool/nl/docs/admin/reminders/">Herinneringsmails</a>
         
       
       
@@ -324,7 +324,7 @@
 
 
 <li class="breadcrumb-item active" aria-current="page">
-	<a href="https://uva-fnwi.github.io/GradeTool/nl/docs/admin/reminders/">Herinneringsmails</a>
+	<a href="https://uva-fnwi.github.io/GradeTool/nl/docs/admin/course-links/">Gekoppelde cursussen</a>
 </li>
 
 	</ol>
@@ -332,29 +332,18 @@
 
             
 <div class="td-content">
-	<h1>Herinneringsmails</h1>
-    <div class="lead">Inplannen van herinneringsmails voor docenten die nog cijfers moeten inleveren</div>
+	<h1>Gekoppelde cursussen</h1>
+    <div class="lead">Koppelen van cursussen t.b.v. cross-listing</div>
 	       
-	<p>Op het scherm &ldquo;Herinneringen instellen&rdquo; kunnen per faculteit herinneringsmails geconfigureerd worden. De herinneringen worden vervolgens automatisch verstuurd in een dagelijks batchproces voor alle vakken waarvoor er minstens 1 student is die nog een cijfer moet krijgen. Er kunnen meerdere herinneringen ingesteld worden, met verschillende data. Per herinnering kan ingesteld worden</p>
-<ul>
-<li>Hoeveel dagen na de tentamendatum deze verstuurd wordt (of voor de tentamendatum, door een negatieve waarde in te vullen)</li>
-<li>De naam en email van de afzender</li>
-<li>Een optioneel adres waar een cc naar wordt gestuurd</li>
-<li>Het onderwerp en de inhoud van de mail</li>
-</ul>
-<p>Bij het instellen van de inhoud kunnen er een aantal parameters gebruikt worden.</p>
-<h3 id="planning-en-selectie">Planning en selectie</h3>
-<p>Elke werkdag om 17 uur worden de mails uitgestuurd voor vakken waarbij er nog een cijfer openstaat en de betreffende mail niet eerder is gestuurd. Daarbij geldt:</p>
-<ul>
-<li>Individuele vakken en vakken met 0 EC worden niet meegenomen in de selectie</li>
-<li>De mail wordt verstuurd als de ijkdatum (tentamendatum plus het ingestelde aantal dagen) in het verleden ligt, maar niet meer dan 15 dagen, om te verhinderen dat er achterhaalde mails verstuurd worden bij het instellen van een nieuwe herinnering</li>
-<li>De mail gaat naar alle examinatoren die bij het vak betrokken zijn, ook al hebben zij misschien in hun eigen groep geen cijfers meer openstaan</li>
-</ul>
-<p>De testknop op het configuratiescherm kan gebruikt worden om te kijken of er in de volgende run een mail verstuurd gaat worden voor een zeker vak.</p>
+	<p>Met de optie &ldquo;Cross-list target&rdquo; in het setupvenster van een cursus kan er een koppeling gemaakt worden tussen twee of meer vakken van dezelfde faculteit. Daarmee wordt er voor de gebruiker een knop getoond om tussen de gekoppelde vakken te switchen (heen en terug):</p>
+<p><img src="https://uva-fnwi.github.io/GradeTool/linked_courses.png" alt="Gekoppelde vakken"></p>
+<p>Er kunnen meerdere subcursussen aan één &lsquo;target&rsquo; (=hoofdcursus) gekoppeld worden en het menu toont dan altijd alle vakken. De cijferlijsten in de tool tonen altijd de studenten die in SIS ingeschreven staan voor het vak.</p>
+<p>De rechten die een gebruiker vanuit Canvas krijgt om cijfers in te bekijken en in te voeren gelden dan ook voor alle gekoppelde cursussen. Docenten hoeven dus niet in Canvas toegang tot alle cursussen te hebben. De examinator-check bij het inleveren is onveranderd, docenten kunnen alleen cijfers inleveren voor die cursussen waarbij ze in SIS zijn gekoppeld.</p>
+<p>De cijferberekening kan alleen ingesteld worden voor de hoofdcursus en wordt dan gebruikt door de andere cursussen. De berekenknop in de subcursus haalt de cijfers uit Canvas binnen vanuit de hoofdcursus en voert daarna de berekening uit voor de studenten die in de subcursus staan ingeschreven. Cijfers worden per cursus ingeleverd onafhankelijk van elkaar.</p>
 
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Laatst gewijzigd 19-03-2021
+	<div class="text-muted mt-5 pt-3 border-top">Laatst gewijzigd 24-03-2021
 </div>
 </div>
 
