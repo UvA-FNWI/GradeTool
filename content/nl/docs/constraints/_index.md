@@ -8,6 +8,7 @@ weight: 1
 
 Om gebruik te maken van de cijferregistratieapplicatie moet er aan de volgende eisen zijn voldaan:
 - Het vak moet in SIS en Canvas ingericht zijn via de standaard koppeling tussen de twee systemen.
+- Degene die cijfers invoert moet in Canvas als docent aan het vak zijn gekoppeld (of een andere rol met rechten om cijfers in Canvas in te voeren).
 - Degene die cijfers inlevert moet in SIS gekoppeld zijn als examinator op de studieactiviteit van de werkvorm.
 - Degene die cijfers inlevert moet [SURF-2FA](https://medewerker.uva.nl/content-secured/az/tweestapsverificatie/surf/surf.html) hebben geactiveerd.
 
@@ -32,14 +33,14 @@ De toetsdatum wordt als volgt bepaalt (zie ook [de flowchart](/flowchart_toetsda
 2.	Zo niet, dan wordt de laatste datum van geroosterde tentamenactiviteiten (eerste kans, types Tent en DigiToets) of hertentamenactiviteiten (tweede kans, types HerT en HertDigiToets) in Syllabus+ gebruikt.
 3.	Indien deze niet bestaat, dan wordt de eerste (eerste kans) of laatste (tweede kans) dag van de laatste week van de periode (conform sessie op de studieactiviteit voor aanmeldingen) gebruikt (waarbij de gekozen toetsdatum nooit op de laatste dag van de maand valt). 
 
-De toetsdatum is niet aanpasbaar door de docent, maar indien de toetsdatum in de toekomst ligt bij het indienen óf de toetsdatum van een herkansing voor de toetsdatum van de eerste poging ligt, dan wordt de datum van doorboeken gebruikt.
+De toetsdatum is niet aanpasbaar door de docent, maar indien de toetsdatum in de toekomst ligt bij het indienen óf de toetsdatum van een herkansing voor de toetsdatum van de eerste poging ligt, dan wordt de datum van doorboeken gebruikt. De data uit SIS wordt 1 keer per week bijgewerkt (en kan met de "update data" knop worden bespoedigd), informatie uit het rooster komt in real-time binnen.
 
 ### Doorwerking naar SIS
 Bij doorboeken worden de cijfers direct doorgezet naar SIS, in een proces dat op de achtergrond wordt gestart na het ondertekenen. Het proces biedt de cijfers aan SIS aan in batches van maximaal 100 cijfers en slaat het resultaat op. Hierbij wordt ook het UvAnetID van de examinator meegestuurd. De cijfers worden altijd op een T-studiedeel geboekt, tenzij het een individueel vak betreft. Als er geen T-studiedeel bestaat voor een niet-individueel vak, dan kunnen er momenteel geen cijfers worden geboekt. 
 
 De tool zoekt eerst (via een QAS-query) een bestaande T-activiteit (standaard of herkansing) om de cijfers op te boeken, op basis van de sessie van het vak en de eventueel geselecteerd werkgroep. Indien deze niet bestaat, dan maakt de tool de activiteit aan via de CI met een zo specifiek mogelijke sessie (bijv. T21 i.p.v. T2). In beide gevallen hoeven er geen studenten in SIS ingeschreven te worden; de tool doet dit bij het boeken van de cijfers. Indien een student al ingeschreven staat, wordt de bestaande inschrijving gebruikt. Zo niet, dan wordt de student ingeschreven met een actieve loopbaan die overeenkomt met het niveau van de cursus, of met de eerste actieve loopbaan als deze niet bestaat.
 
-Cijferlijsten die vanwege een fout of een openstaande niet direct (volledig) zijn doorgeboekt worden elke nacht opnieuw aan SIS aangeboden, totdat ze zijn verwerkt of afgevinkt door een beheerder.
+Cijferlijsten die vanwege een fout of een openstaande goedkeuring niet direct (volledig) zijn doorgeboekt worden elke nacht opnieuw aan SIS aangeboden, totdat ze zijn verwerkt of afgevinkt door een beheerder.
 
 ### Partieel doorboeken
 Er kan per vak ingesteld worden (met studiedeelkenmerk CVPA op de onderwijseenheid in SIS, te vullen vanuit UvANose) of de cijfers in delen ingeleverd kunnen worden. Als deze optie aanstaat, dan is het mogelijk om studenten aan te vinken en voor de selectie de cijfers door te voeren. Zo niet, dan moeten alle studenten een cijfer krijgen (bijv. een NAP). De docent heeft de mogelijkheid om alle overgebleven studenten in 1 keer een NAP te geven. 
@@ -48,7 +49,7 @@ Er kan per vak ingesteld worden (met studiedeelkenmerk CVPA op de onderwijseenhe
 Per faculteit (waarbij FMG telt als 4) kan ingesteld worden:
 - Of het mogelijk is om studenten toe te voegen aan een cijferlijst
 - Wat de einddatum is voor cijferregistratie (d.w.z. tot welke datum per academisch jaar docenten cijfers kunnen indienen)
-- Notificaties (nog in te richten)
+- [Herinneringen](../admin/reminders)
 
 ### Hulp bij problemen 
 Problemen met de tool kunnen gemeld worden via de datanose-fnwi mailbox of via de TOPdesk behandelaarsgroep 'FNWI DataNose beheer'.

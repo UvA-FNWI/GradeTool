@@ -70,3 +70,7 @@ Het digitaal ondertekenen van de cijferlijst gebeurt met een dubbele verificatie
 Voor meer informatie over het gebruiken van een token, zie [de medewerkerssite](https://medewerker.uva.nl/fnwi/shared-content-secured/medewerkersites/uva-medewerkers/nl/az/tweestapsverificatie/surf/surf.html).
 
 Als het om een of andere reden niet meteen lukt om de tweede verificatiestap met het token te doen, kan deze stap ook op een later moment worden gedaan. Op de Eindcijfer-pagina zijn nog niet volledig ondertekende cijferlijsten te vinden onder de rode knop voor Cijfers inleveren, onder het kopje "Nog niet ondertekend". 
+
+### Correcties
+
+Na het indienen van cijfers is het mogelijk om via de 'correctie indienen' knop een correctie toe te voegen. De gecorrigeerde cijfers kunnen dan een in een aparte kolom worden opgevoerd, en ook eventueel weer worden berekend via de cijferberekening (na corrigeren van de deelcijfers). Correcties worden op dezelfde manier ondertekjend en doorgezet, waarbij er bij het indienen een reden opgegeven dient te worden. Als de correctie binnen 40 dagen na het oorspronkelijke cijfer wordt ingediend, dan wordt deze vanzelf doorgezet. Na 40 dagen moet deze door de onderwijsadministratie goedgekeurd worden.

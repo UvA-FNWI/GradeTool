@@ -10,7 +10,7 @@ Met de optie "Cross-list target" in het setupvenster van een cursus kan er een k
 
 ![Gekoppelde vakken](/linked_courses.png)
 
-Er kunnen meerdere subcursussen aan één 'target' (=hoofdcursus) gekoppeld worden en het menu toont dan altijd alle vakken. De cijferlijsten in de tool tonen altijd de studenten die in SIS ingeschreven staan voor het vak.
+Er kunnen meerdere subcursussen aan één 'target' (=hoofdcursus) gekoppeld worden en het menu toont dan alle vakken. De cijferlijsten in de tool tonen altijd de studenten die in SIS ingeschreven staan voor het vak.
 
 De rechten die een gebruiker vanuit Canvas krijgt om cijfers in te bekijken en in te voeren gelden dan ook voor alle gekoppelde cursussen. Docenten hoeven dus niet in Canvas toegang tot alle cursussen te hebben. De examinator-check bij het inleveren is onveranderd, docenten kunnen alleen cijfers inleveren voor die cursussen waarbij ze in SIS zijn gekoppeld.
 

@@ -7,6 +7,22 @@ weight: 5
 ---
 De handleiding van de cijferberekeningsfunctionaliteit is [op Canvas](https://canvas.uva.nl/courses/169/modules#module_103508) te vinden. Deze pagina beschrijft de werking van een aantal functionaliteiten.
 
+### Berekeningsinstellingen
+Cijferberekingen zijn in de regel gebaseerd op deelcijfers uit Canvas. Hier kan ruwweg met twee soorten beoordelingen gewerkt worden: punten (eventueel met een weergave als percentage of letter scale) of voldaan/niet voldaan. In beide gevallen kan het bijzondere cijfer EX (=excused) worden ingevoerd om een vrijstelling aan te geven.
+
+De volgende berekeningstypes kunnen gebruikt worden:
+- Gewogen gemiddelde: er dient per onderdeel een gewicht worden opgevoerd
+- Som: de subonderdelen worden opgeteld zonder weging
+- Laatste poging: het deelcijfer met de laatste datum telt
+- Maximum: het maximum van de deelcijfers telt 
+
+Daarnaast kunnen per onderdeel een aantal opties ingesteld worden:
+- Vereist: student krijgt een NAV (of NAP, indien geconfigureerd) indien er geen cijfer is vastgelegd voor dit onderdeel 
+- Minimumcijfer: student krijgt een NAV (of het deelcijfer zelf, indien geconfigureerd) als niet aan de voorwaarde is voldaan
+- Bonus/malus: het cijfer telt mee als bonus of malus
+
+Voor een berekend cijfer met beoordeling voldaan/niet voldaan kunnen de 'vereist' en 'minimumcijfer' opties gebruikt worden om een berekende beoordeling in te stellen. Ook kan de optie om de laagste N cijfers te laten vallen hier ingezet worden om constructies te bouwen van de vorm "3 van de 4 opdrachten moeten gehaald zijn".
+
 ### Koppelingen met toetssystemen
 Naast assignments uit Canvas, biedt de tool de mogelijkheid om cijfers uit de toetssystemen ANS, SOWISO en TestVision te gebruiken. In alle gevallen dient eerst een koppeling door een beheerder gemaakt te worden in het beheervenster van het vak:
 

@@ -284,10 +284,14 @@
 
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#overzicht-cijferlijsten">Overzicht cijferlijsten</a></li>
-    <li><a href="#details-cijferlijst">Details cijferlijst</a></li>
-    <li><a href="#openstaande-cijferlijsten">Openstaande cijferlijsten</a></li>
-    <li><a href="#informatie-per-vak">Informatie per vak</a></li>
+    <li>
+      <ul>
+        <li><a href="#overzicht-cijferlijsten">Overzicht cijferlijsten</a></li>
+        <li><a href="#details-cijferlijst">Details cijferlijst</a></li>
+        <li><a href="#openstaande-cijferlijsten">Openstaande cijferlijsten</a></li>
+        <li><a href="#informatie-per-vak">Informatie per vak</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -328,7 +332,7 @@
         <div class="lead">Overzicht van de werking van de beheersschermen voor onderwijsadministraties</div>
 	
 	<p>De beheerschermen voor de cijferregistratie zijn momenteel toegankelijk via <a href="https://datanose.nl">https://datanose.nl</a> (of <a href="https://acc.datanose.nl">https://acc.datanose.nl</a> voor de testomgeving). Er zijn twee hoofdschermen: een scherm ‘Openstaande cijferlijsten’ om lijsten met niet-ingeschreven studenten af te handelen en een overzichtsscherm ‘Overzicht cijferlijsten’. Daarnaast is er ook voor elk vak een overzichtsscherm beschikbaar. De toegang kan per scherm worden ingesteld; LFB kan toegang aanvragen via TOPdesk bij het DataNose-team.</p>
-<h2 id="overzicht-cijferlijsten">Overzicht cijferlijsten</h2>
+<h3 id="overzicht-cijferlijsten">Overzicht cijferlijsten</h3>
 <p><img src="https://uva-fnwi.github.io/GradeTool/grade_overview.nl.png" alt="Overzicht cijferlijsten"></p>
 <p>Dit scherm toont alle ingediende cijferlijsten, in drie categorieën:</p>
 <ul>
@@ -344,7 +348,7 @@
 </ul>
 <p>Je kunt doorklikken naar het vak of de cijferlijst direct openen via het <img src="https://uva-fnwi.github.io/GradeTool/page.png" alt="page">-icoontje, waarna de detailpagina opent.</p>
 <p>Ook kunnen deze lijsten in het overzicht worden afgevinkt om ze naar ‘afgehandeld’ te verplaatsen, ook al staan nog niet alle cijfers in SIS door in het overzichtsscherm een vink te zetten. Na op &lsquo;vernieuwen&rsquo; klikken is de lijst verdwenen uit het overzicht van openstaande lijsten.</p>
-<h2 id="details-cijferlijst">Details cijferlijst</h2>
+<h3 id="details-cijferlijst">Details cijferlijst</h3>
 <p>Voor cijferlijsten die nog niet volledig in SIS zijn verwerkt is het mogelijk om de tentamendatum aan te passen en de lijst direct naar SIS door te boeken:</p>
 <p><img src="https://uva-fnwi.github.io/GradeTool/list_info.nl.png" alt="Instellingen cijferlijst"></p>
 <p>Let op: als de cijferlijst al deels is doorgeboekt en je past daarna de toetsdatum aan dan komt de nieuwe toetsdatum mee met alle daarna doorgeboekte cijfers. In SIS bestaan dus verschillende toetsdata voor dit vak.</p>
@@ -355,11 +359,11 @@
 <li>De tentamendatum bevalt buiten de sessie. De opgegeven tentamendatum komt niet overeen met de sessie van het vak.</li>
 </ul>
 <p>Overige (onverwachte) fouten worden als &lsquo;onbekende fout&rsquo; getoond; door de cijferlijst nogmaals te laten verwerken kun je zien wat er precies foutgaat. Op deze fouten wordt actief gemonitord door centraal beheer.</p>
-<h2 id="openstaande-cijferlijsten">Openstaande cijferlijsten</h2>
-<p>Dit scherm is qua opzet vergelijkbaar met het overzicht, maar toont alleen de cijferlijsten waarvoor er nog een of meer niet-ingeschreven studenten beoordeeld moeten worden:</p>
+<h3 id="openstaande-cijferlijsten">Openstaande cijferlijsten</h3>
+<p>Dit scherm is qua opzet vergelijkbaar met het overzicht, maar toont alleen de cijferlijsten waarvoor er nog een of meer niet-ingeschreven studenten of na 40 dagen corrigeerde studenten beoordeeld moeten worden:</p>
 <p><img src="https://uva-fnwi.github.io/GradeTool/list_other_row.png" alt="Openstaand cijfer"></p>
 <p>Via de knoppen aan het einde van de rij kan het cijfer geaccepteerd (wordt in de nacht naar SIS doorgezet) of afgewezen (met reden, geen verdere actie) worden.</p>
-<h2 id="informatie-per-vak">Informatie per vak</h2>
+<h3 id="informatie-per-vak">Informatie per vak</h3>
 <p>Door naar een vak door te klikken of via de zoekfunctie rechtsboven een vak op te zoeken op naam of studiegidsnummer en dan naar ‘Cijfers inleveren’ te gaan, kom je op de overzichtspagina per vak. Hier zie je alle ingeleverde lijsten met status:</p>
 <p><img src="https://uva-fnwi.github.io/GradeTool/course_lists.nl.png" alt="Openstaand cijfer"></p>
 <p>Daarnaast kun je via de optie ‘Alle cijfers tonen’ een overzicht inzien van alle ingeleverde cijfers voor dit vak in het gekozen jaar.</p>
