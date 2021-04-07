@@ -49,6 +49,16 @@ Dit scherm is qua opzet vergelijkbaar met het overzicht, maar toont alleen de ci
 
 Via de knoppen aan het einde van de rij kan het cijfer geaccepteerd (wordt in de nacht naar SIS doorgezet) of afgewezen (met reden, geen verdere actie) worden.
 
+### Overzicht correcties
+
+Dit scherm toont alle ingediende correcties, met een aantal extra kolommen die meer inzicht geven in de ernst van de correctie:
+- Aantal gecorrigeerde cijfers
+- Aantal weken na indienen van het oorspronkelijke cijfer
+- Aantal cijfers dat van voldoende naar onvoldoende is gecorrigeerd
+- Reden correctie
+
+Verder worden dezelfde statussen getoond als in de andere lijsten en kan er doorgeklikt worden naar de details van de lijst.
+
 ### Informatie per vak
 Door naar een vak door te klikken of via de zoekfunctie rechtsboven een vak op te zoeken op naam of studiegidsnummer en dan naar ‘Cijfers inleveren’ te gaan, kom je op de overzichtspagina per vak. Hier zie je alle ingeleverde lijsten met status: 
 
