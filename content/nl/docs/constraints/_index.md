@@ -51,5 +51,8 @@ Per faculteit (waarbij FMG telt als 4) kan ingesteld worden:
 - Wat de einddatum is voor cijferregistratie (d.w.z. tot welke datum per academisch jaar docenten cijfers kunnen indienen)
 - [Herinneringen](../admin/reminders)
 
+### Bewaartermijnen
+De tool bewaart alle ingeleverde cijfers minimaal 7 jaar en de volledig historie is op ieder moment terug te kijken. 
+
 ### Hulp bij problemen 
 Problemen met de tool kunnen gemeld worden via de datanose-fnwi mailbox of via de TOPdesk behandelaarsgroep 'FNWI DataNose beheer'.
