@@ -18,7 +18,7 @@ Dit scherm toont alle ingediende cijferlijsten, in drie categorieën:
 - Afgehandeld: in SIS verwerkt of afgevinkt.
 
 Onder doorgeboekt of afgehandeld worden de volgende statussen getoond:
-- ![warning](/error.png): de lijst heeft openstaande fouten.
+- ![warning](/error.png): de lijst heeft openstaande fouten (indien de fout is dat de student niet is ingeschreven, dan is het icoon grijs, anders geel).
 - ![tick](/tick.png): lijst is succesvol verwerkt.
 - ![cog](/cog.png): lijst moet (deels) nog verwerkt worden.
 
