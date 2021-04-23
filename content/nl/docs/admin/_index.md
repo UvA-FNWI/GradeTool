@@ -2,11 +2,11 @@
 title: "Beheerschermen"
 linkTitle: "Beheerschermen"
 description: "Overzicht van de werking van de beheersschermen voor onderwijsadministraties"
-date: 2021-01-03
+date: 2021-04-23
 weight: 4
 ---
 
-De beheerschermen voor de cijferregistratie zijn momenteel toegankelijk via https://datanose.nl (of https://acc.datanose.nl voor de testomgeving). Er zijn twee hoofdschermen: een scherm ‘Openstaande cijferlijsten’ om lijsten met niet-ingeschreven studenten af te handelen en een overzichtsscherm ‘Overzicht cijferlijsten’. Daarnaast is er ook voor elk vak een overzichtsscherm beschikbaar. De toegang kan per scherm worden ingesteld; LFB kan toegang aanvragen via TOPdesk bij het DataNose-team. 
+De beheerschermen voor de cijferregistratie zijn momenteel toegankelijk via https://datanose.nl (of https://acc.datanose.nl voor de testomgeving). Er zijn twee hoofdschermen: een scherm ‘Openstaande cijferlijsten’ om lijsten met niet-ingeschreven studenten af te handelen en een overzichtsscherm ‘Overzicht cijferlijsten’. Daarnaast is er ook voor elk vak een overzichtsscherm beschikbaar. LFB kan toegang aanvragen bij het DataNose-team; er zijn momenteel twee rollen: een volledige beheerdersrol en een rol die alleen mag lezen. 
 
 ### Overzicht cijferlijsten
 
@@ -37,7 +37,7 @@ Let op: als de cijferlijst al deels is doorgeboekt en je past daarna de toetsdat
 Per cijfer zie je de verwerkingsstatus, met een mouseover met meer informatie (bijv. in het geval van een fout wat er precies fout is gegaan). Er worden een aantal standaardfouten getoond:
 - Kan geen studieactiviteit aanmaken. Het is niet mogelijk om de benodigde T-activiteit aan te maken, bijv. doordat het studiedeel op inactief staat.
 - Student heeft geen actieve inschrijving. De student is niet actief voor inschrijving in de betreffende periode.
-- De tentamendatum bevalt buiten de sessie. De opgegeven tentamendatum komt niet overeen met de sessie van het vak.
+- De tentamendatum valt buiten de sessie. De opgegeven tentamendatum komt niet overeen met de sessie van het vak.
 
 Overige (onverwachte) fouten worden als 'onbekende fout' getoond; door de cijferlijst nogmaals te laten verwerken kun je zien wat er precies foutgaat. Op deze fouten wordt actief gemonitord door centraal beheer.
 

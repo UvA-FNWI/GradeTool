@@ -22,7 +22,7 @@
 <meta property="og:description" content="Wat moet en kan er ingesteld worden om de applicatie te kunnen gebruiken?" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://uva-fnwi.github.io/GradeTool/nl/docs/constraints/" />
-<meta property="og:updated_time" content="2021-01-05T00:00:00+00:00" /><meta property="og:site_name" content="Cijferregistratieapplicatie" />
+<meta property="og:updated_time" content="2021-04-23T00:00:00+00:00" /><meta property="og:site_name" content="Cijferregistratieapplicatie" />
 <meta itemprop="name" content="Randvoorwaarden">
 <meta itemprop="description" content="Wat moet en kan er ingesteld worden om de applicatie te kunnen gebruiken?">
 <meta name="twitter:card" content="summary"/>
@@ -288,6 +288,7 @@
       <ul>
         <li><a href="#activeren-tool-per-vak">Activeren tool per vak</a></li>
         <li><a href="#recente-wijzigingen-in-sis">Recente wijzigingen in SIS</a></li>
+        <li><a href="#getoonde-studenten">Getoonde studenten</a></li>
         <li><a href="#beoordelingsvoet">Beoordelingsvoet</a></li>
         <li><a href="#tentamendatum">Tentamendatum</a></li>
         <li><a href="#doorwerking-naar-sis">Doorwerking naar SIS</a></li>
@@ -348,8 +349,10 @@
 <p><img src="https://uva-fnwi.github.io/GradeTool/course_setup.nl.png" alt="Beheersinstellingen"></p>
 <h3 id="recente-wijzigingen-in-sis">Recente wijzigingen in SIS</h3>
 <p>De cijferregistratieapplicatie wordt minimaal elke nacht bijgewerkt met wijzigingen vanuit SIS. Als een vak recenter dan dat is aangemaakt, dan kan het zijn het vak nog niet bekend is en dat de melding &ldquo;course not found&rdquo; wordt getoond bij het openen van de tool. Het is mogelijk om vanaf dat foutscherm een update vanuit SIS te triggeren, door op &ldquo;Update course from SIS&rdquo; te klikken en de SIS course ID op te geven. Alle gegevens van het vak worden dan in real-time vanuit SIS binnengehaald.</p>
-<p>Hetzelfde geldt voor wijzigingen in het vak die op de dag zelf zijn gedaan (bijv. een aanpassing in de studieactiviteit), deze kunnen door iemand met beheerdersrechten in Canvas worden binnengehaald via de &ldquo;Gegevens bijwerken&rdquo; knop in de cijfertool:</p>
+<p>Hetzelfde geldt voor wijzigingen in het vak die op de dag zelf zijn gedaan (bijv. een aanpassing in de studieactiviteit) of het inschrijven van een student, deze kunnen door iemand met beheerdersrechten in Canvas worden binnengehaald via de &ldquo;Gegevens bijwerken&rdquo; knop in de cijfertool:</p>
 <p><img src="https://uva-fnwi.github.io/GradeTool/update_data.nl.png" alt="Gegevens bijwerken"></p>
+<h3 id="getoonde-studenten">Getoonde studenten</h3>
+<p>Alle studenten die voor het vak staan ingeschreven op een studieactiviteit op de werkvorm worden getoond. Er wordt niet gekeken naar inschrijven op studieactiviteiten in een T- of H-sessie. Studenten die waarvan de vakaanmelding wordt gestopt, verdwijnen van de lijst indien er geen eindcijfer is opgevoerd (anders blijven ze staan als handmatig toegevoegde studenten). Er wordt niet gekeken naar de status van de inschrijving de opleiding.</p>
 <h3 id="beoordelingsvoet">Beoordelingsvoet</h3>
 <p>De mogelijke beoordelingen worden bepaald door de geldige rij met waarden van de beoordelingsvoet in SIS. Cijfers tussen de 5 en 6 kunnen niet gegeven worden indien het vak een effective date voor 1 september 2018 heeft in SIS.</p>
 <h3 id="tentamendatum">Tentamendatum</h3>
@@ -359,11 +362,11 @@
 <li>Zo niet, dan wordt de laatste datum van geroosterde tentamenactiviteiten (eerste kans, types Tent en DigiToets) of hertentamenactiviteiten (tweede kans, types HerT en HertDigiToets) in Syllabus+ gebruikt.</li>
 <li>Indien deze niet bestaat, dan wordt de eerste (eerste kans) of laatste (tweede kans) dag van de laatste week van de periode (conform sessie op de studieactiviteit voor aanmeldingen) gebruikt (waarbij de gekozen toetsdatum nooit op de laatste dag van de maand valt).</li>
 </ol>
-<p>De toetsdatum is niet aanpasbaar door de docent, maar indien de toetsdatum in de toekomst ligt bij het indienen óf de toetsdatum van een herkansing voor de toetsdatum van de eerste poging ligt, dan wordt de datum van doorboeken gebruikt. De data uit SIS wordt 1 keer per week bijgewerkt (en kan met de &ldquo;update data&rdquo; knop worden bespoedigd), informatie uit het rooster komt in real-time binnen.</p>
+<p>De toetsdatum is niet aanpasbaar door de docent, maar indien de toetsdatum in de toekomst ligt bij het indienen óf de toetsdatum van een herkansing voor de toetsdatum van de eerste poging ligt, dan wordt de datum van doorboeken gebruikt. De data uit SIS wordt 1 keer per dag bijgewerkt (en kan met de &ldquo;<a href="#recente-wijzigingen-in-sis">update data</a>&rdquo; knop worden bespoedigd), informatie uit het rooster komt in real-time binnen.</p>
 <h3 id="doorwerking-naar-sis">Doorwerking naar SIS</h3>
-<p>Bij doorboeken worden de cijfers direct doorgezet naar SIS, in een proces dat op de achtergrond wordt gestart na het ondertekenen. Het proces biedt de cijfers aan SIS aan in batches van maximaal 100 cijfers en slaat het resultaat op. Hierbij wordt ook het UvAnetID van de examinator meegestuurd. De cijfers worden altijd op een T-studiedeel geboekt, tenzij het een individueel vak betreft. Als er geen T-studiedeel bestaat voor een niet-individueel vak, dan kunnen er momenteel geen cijfers worden geboekt.</p>
-<p>De tool zoekt eerst (via een QAS-query) een bestaande T-activiteit (standaard of herkansing) om de cijfers op te boeken, op basis van de sessie van het vak en de eventueel geselecteerd werkgroep. Indien deze niet bestaat, dan maakt de tool de activiteit aan via de CI met een zo specifiek mogelijke sessie (bijv. T21 i.p.v. T2). In beide gevallen hoeven er geen studenten in SIS ingeschreven te worden; de tool doet dit bij het boeken van de cijfers. Indien een student al ingeschreven staat, wordt de bestaande inschrijving gebruikt. Zo niet, dan wordt de student ingeschreven met een actieve loopbaan die overeenkomt met het niveau van de cursus, of met de eerste actieve loopbaan als deze niet bestaat.</p>
-<p>Cijferlijsten die vanwege een fout of een openstaande goedkeuring niet direct (volledig) zijn doorgeboekt worden elke nacht opnieuw aan SIS aangeboden, totdat ze zijn verwerkt of afgevinkt door een beheerder.</p>
+<p>Bij doorboeken worden de cijfers direct doorgezet naar SIS, in een proces dat op de achtergrond wordt gestart na het ondertekenen. Het proces biedt de cijfers aan SIS aan als inschrijvingsaanvragen, in batches van maximaal 100 cijfers. Hierbij wordt ook het UvAnetID van de examinator meegestuurd. De cijfers worden altijd op een T-studiedeel geboekt, tenzij het een individueel vak betreft. Als er geen T-studiedeel bestaat voor een niet-individueel vak, dan kunnen er momenteel geen cijfers worden geboekt.</p>
+<p>De tool zoekt eerst (via een QAS-query) een bestaande T-activiteit (standaard of herkansing) om de cijfers op te boeken, op basis van de sessie van het vak en de eventueel geselecteerd werkgroep. Indien deze niet bestaat, dan maakt de tool de activiteit aan via de component interface van SIS met een zo specifiek mogelijke sessie (bijv. T21 i.p.v. T2). In beide gevallen hoeven er geen studenten in SIS ingeschreven te worden; de tool doet dit bij het boeken van de cijfers. Indien een student al ingeschreven staat, wordt de bestaande inschrijving gebruikt. Zo niet, dan wordt de student ingeschreven met een actieve loopbaan die overeenkomt met het niveau van de cursus, of met de eerste actieve loopbaan als deze niet bestaat.</p>
+<p>Cijferlijsten die vanwege een fout of een openstaande goedkeuring niet direct (volledig) zijn doorgeboekt worden elke nacht opnieuw aan SIS aangeboden, totdat ze zijn verwerkt of afgevinkt op het <a href="https://uva-fnwi.github.io/GradeTool/nl/docs/admin/">beheerscherm</a>.</p>
 <h3 id="partieel-doorboeken">Partieel doorboeken</h3>
 <p>Er kan per vak ingesteld worden (met studiedeelkenmerk CVPA op de onderwijseenheid in SIS, te vullen vanuit UvANose) of de cijfers in delen ingeleverd kunnen worden. Als deze optie aanstaat, dan is het mogelijk om studenten aan te vinken en voor de selectie de cijfers door te voeren. Zo niet, dan moeten alle studenten een cijfer krijgen (bijv. een NAP). De docent heeft de mogelijkheid om alle overgebleven studenten in 1 keer een NAP te geven.</p>
 <h3 id="configuratieopties-per-faculteit">Configuratieopties per faculteit</h3>
@@ -405,7 +408,7 @@
 
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Laatst gewijzigd 05-01-2021
+	<div class="text-muted mt-5 pt-3 border-top">Laatst gewijzigd 23-04-2021
 </div>
 </div>
 
