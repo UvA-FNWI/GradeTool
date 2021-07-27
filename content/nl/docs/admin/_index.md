@@ -2,7 +2,7 @@
 title: "Beheerschermen"
 linkTitle: "Beheerschermen"
 description: "Overzicht van de werking van de beheersschermen voor onderwijsadministraties"
-date: 2021-04-23
+date: 2021-07-27
 weight: 4
 ---
 
@@ -58,6 +58,9 @@ Dit scherm toont alle ingediende correcties, met een aantal extra kolommen die m
 - Reden correctie
 
 Verder worden dezelfde statussen getoond als in de andere lijsten en kan er doorgeklikt worden naar de details van de lijst.
+
+### Overzicht becijfering
+Dit scherm toont alle relevante vakken voor een faculteit, met de huidige status van de becijfering. De tentamendata worden getoond, en ook de data waarop er cijfers zijn ingeleverd (indien dit het geval is). Het is mogelijk om op een vak door te klikken om te zien wat voor reminders er zijn verstuurd, welke groepen er zijn en welke examinatoren daaraan zijn gekoppeld.
 
 ### Informatie per vak
 Door naar een vak door te klikken of via de zoekfunctie rechtsboven een vak op te zoeken op naam of studiegidsnummer en dan naar ‘Cijfers inleveren’ te gaan, kom je op de overzichtspagina per vak. Hier zie je alle ingeleverde lijsten met status: 
