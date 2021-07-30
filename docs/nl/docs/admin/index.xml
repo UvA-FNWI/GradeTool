@@ -5,7 +5,7 @@
     <description>Recent content in Beheerschermen on Cijferregistratieapplicatie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jul 2021 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="https://uva-fnwi.github.io/GradeTool/nl/docs/admin/index.xml" rel="self" type="application/rss+xml" />
     
@@ -16,33 +16,23 @@
     
     
     <item>
-      <title>Docs: Gekoppelde cursussen</title>
-      <link>https://uva-fnwi.github.io/GradeTool/nl/docs/admin/course-links/</link>
-      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      <title>Docs: Instellingen</title>
+      <link>https://uva-fnwi.github.io/GradeTool/nl/docs/admin/settings/</link>
+      <pubDate>Tue, 27 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://uva-fnwi.github.io/GradeTool/nl/docs/admin/course-links/</guid>
+      <guid>https://uva-fnwi.github.io/GradeTool/nl/docs/admin/settings/</guid>
       <description>
         
         
-        &lt;p&gt;Met de optie &amp;ldquo;Cross-list target&amp;rdquo; in het setupvenster van een cursus kan er een koppeling gemaakt worden tussen twee of meer vakken van dezelfde faculteit. Daarmee wordt er voor de gebruiker een knop getoond om tussen de gekoppelde vakken te switchen (heen en terug):&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://uva-fnwi.github.io/GradeTool/linked_courses.png&#34; alt=&#34;Gekoppelde vakken&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Er kunnen meerdere subcursussen aan één &amp;lsquo;target&amp;rsquo; (=hoofdcursus) gekoppeld worden en het menu toont dan alle vakken. De cijferlijsten in de tool tonen altijd de studenten die in SIS ingeschreven staan voor het vak.&lt;/p&gt;
-&lt;p&gt;De rechten die een gebruiker vanuit Canvas krijgt om cijfers in te bekijken en in te voeren gelden dan ook voor alle gekoppelde cursussen. Docenten hoeven dus niet in Canvas toegang tot alle cursussen te hebben. De examinator-check bij het inleveren is onveranderd, docenten kunnen alleen cijfers inleveren voor die cursussen waarbij ze in SIS zijn gekoppeld.&lt;/p&gt;
-&lt;p&gt;De cijferberekening kan alleen ingesteld worden voor de hoofdcursus en wordt dan gebruikt door de andere cursussen. De berekenknop in de subcursus haalt de cijfers uit Canvas binnen vanuit de hoofdcursus en voert daarna de berekening uit voor de studenten die in de subcursus staan ingeschreven. Cijfers worden per cursus ingeleverd onafhankelijk van elkaar.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Herinneringsmails</title>
-      <link>https://uva-fnwi.github.io/GradeTool/nl/docs/admin/reminders/</link>
-      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://uva-fnwi.github.io/GradeTool/nl/docs/admin/reminders/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Op het scherm &amp;ldquo;Herinneringen instellen&amp;rdquo; kunnen per faculteit herinneringsmails geconfigureerd worden. De herinneringen worden vervolgens automatisch verstuurd in een dagelijks batchproces voor alle vakken waarvoor er minstens 1 student is die nog een cijfer moet krijgen. Er kunnen meerdere herinneringen ingesteld worden, met verschillende data. Per herinnering kan ingesteld worden&lt;/p&gt;
+        &lt;h2 id=&#34;basisinstellingen&#34;&gt;Basisinstellingen&lt;/h2&gt;
+&lt;p&gt;Op het scherm &amp;ldquo;Instellingen afdelingen&amp;rdquo; kunnen er globale instellingen worden gezet voor de cijferberekening. Momenteel zijn er twee instellingen:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Einddatum: na deze datum is het voor docenten niet meer mogelijk om zelf cijfers in te leveren (medewerkers van de onderwijsadministratie die daartoe bevoegd zijn, kunnen dat wel)&lt;/li&gt;
+&lt;li&gt;Studenten toevoegen uitschakelen: indien ingesteld is het niet mogelijk voor docenten om studenten toe te voegen aan de cijferlijst&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;De instellingen kunnen op elk niveau (instelling, faculteit of subafdeling) ingesteld worden. Er wordt altijd het laagste niveau gebruikt dat is ingesteld.&lt;/p&gt;
+&lt;h2 id=&#34;herinneringsmails&#34;&gt;Herinneringsmails&lt;/h2&gt;
+&lt;p&gt;Op het scherm &amp;ldquo;Herinneringen instellen&amp;rdquo; kunnen per faculteit herinneringsmails geconfigureerd worden. De herinneringen worden vervolgens automatisch verstuurd in een dagelijks batchproces voor alle vakken waarvoor er minstens 1 student is die nog een cijfer moet krijgen. Er kunnen meerdere herinneringen ingesteld worden, met verschillende data. Per herinnering kan ingesteld worden&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Hoeveel dagen na de tentamendatum deze verstuurd wordt (of voor de tentamendatum, door een negatieve waarde in te vullen)&lt;/li&gt;
 &lt;li&gt;De naam en email van de afzender&lt;/li&gt;
@@ -58,6 +48,24 @@
 &lt;li&gt;De mail gaat naar alle examinatoren die bij het vak betrokken zijn, ook al hebben zij misschien in hun eigen groep geen cijfers meer openstaan&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;De testknop op het configuratiescherm kan gebruikt worden om te kijken of er in de volgende run een mail verstuurd gaat worden voor een zeker vak.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Gekoppelde cursussen</title>
+      <link>https://uva-fnwi.github.io/GradeTool/nl/docs/admin/course-links/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://uva-fnwi.github.io/GradeTool/nl/docs/admin/course-links/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Met de optie &amp;ldquo;Cross-list target&amp;rdquo; in het setupvenster van een cursus kan er een koppeling gemaakt worden tussen twee of meer vakken van dezelfde faculteit. Daarmee wordt er voor de gebruiker een knop getoond om tussen de gekoppelde vakken te switchen (heen en terug):&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://uva-fnwi.github.io/GradeTool/linked_courses.png&#34; alt=&#34;Gekoppelde vakken&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Er kunnen meerdere subcursussen aan één &amp;lsquo;target&amp;rsquo; (=hoofdcursus) gekoppeld worden en het menu toont dan alle vakken. De cijferlijsten in de tool tonen altijd de studenten die in SIS ingeschreven staan voor het vak.&lt;/p&gt;
+&lt;p&gt;De rechten die een gebruiker vanuit Canvas krijgt om cijfers in te bekijken en in te voeren gelden dan ook voor alle gekoppelde cursussen. Docenten hoeven dus niet in Canvas toegang tot alle cursussen te hebben. De examinator-check bij het inleveren is onveranderd, docenten kunnen alleen cijfers inleveren voor die cursussen waarbij ze in SIS zijn gekoppeld.&lt;/p&gt;
+&lt;p&gt;De cijferberekening kan alleen ingesteld worden voor de hoofdcursus en wordt dan gebruikt door de andere cursussen. De berekenknop in de subcursus haalt de cijfers uit Canvas binnen vanuit de hoofdcursus en voert daarna de berekening uit voor de studenten die in de subcursus staan ingeschreven. Cijfers worden per cursus ingeleverd onafhankelijk van elkaar.&lt;/p&gt;
 
       </description>
     </item>

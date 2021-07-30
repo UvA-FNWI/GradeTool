@@ -2,11 +2,20 @@
 title: "Beheerschermen"
 linkTitle: "Beheerschermen"
 description: "Overzicht van de werking van de beheersschermen voor onderwijsadministraties"
-date: 2021-07-27
+date: 2021-07-30
 weight: 4
 ---
 
-De beheerschermen voor de cijferregistratie zijn momenteel toegankelijk via https://datanose.nl (of https://acc.datanose.nl voor de testomgeving). Er zijn twee hoofdschermen: een scherm ‘Openstaande cijferlijsten’ om lijsten met niet-ingeschreven studenten af te handelen en een overzichtsscherm ‘Overzicht cijferlijsten’. Daarnaast is er ook voor elk vak een overzichtsscherm beschikbaar. LFB kan toegang aanvragen bij het DataNose-team; er zijn momenteel twee rollen: een volledige beheerdersrol en een rol die alleen mag lezen. 
+De beheerschermen voor de cijferregistratie zijn momenteel toegankelijk via https://datanose.nl (of https://acc.datanose.nl voor de testomgeving). Er zijn twee hoofdschermen: een scherm ‘Openstaande cijferlijsten’ om lijsten met niet-ingeschreven studenten af te handelen en een overzichtsscherm ‘Overzicht cijferlijsten’. Daarnaast zijn er een aantal ondersteunende schermen en is er ook voor elk vak een overzichtsscherm beschikbaar. 
+
+### Rollen
+Er zijn een aantal verschillende rollen die aan gebruikers toegekend kunnen worden binnen de beheerschermen:
+- Facultair beheerder: kan rollen toekennen/weghalen en globale instellingen zetten
+- Cijferbeheerder (UvA): heeft toegang tot alle cijferschermen, kan cijfers goedkeuren en doorboeken, reminders instellen en data aanpassen
+- Cijferbeheerder (alleen lezen): heeft toegang tot alle cijferschermen maar kan niets aanpassen
+- Cijferinleveraar: kan namens iedere examinator cijfers inleveren en doorboeken
+- Latecorrectiegoedkeurder: heeft toegang tot het overzicht correcties en kan laat ingediende correcties goed of afkeuren
+- Medewerker VU-cijferverwerking: kan studenten opzoeken en VU-cijfers binnenhalen
 
 ### Overzicht cijferlijsten
 
