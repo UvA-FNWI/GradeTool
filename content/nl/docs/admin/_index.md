@@ -2,7 +2,7 @@
 title: "Beheerschermen"
 linkTitle: "Beheerschermen"
 description: "Overzicht van de werking van de beheersschermen voor onderwijsadministraties"
-date: 2021-07-30
+date: 2021-09-03
 weight: 4
 ---
 
@@ -77,3 +77,6 @@ Door naar een vak door te klikken of via de zoekfunctie rechtsboven een vak op t
 ![Openstaand cijfer](/course_lists.nl.png)
 
 Daarnaast kun je via de optie ‘Alle cijfers tonen’ een overzicht inzien van alle ingeleverde cijfers voor dit vak in het gekozen jaar.
+
+### Cijfers verwijderen
+Een (facultair) beheerder kan cijfers verwijderen via het moersleutel-icoontje in een ingeleverde cijferlijst. Bij verwijderen blijft het cijfer staan in de beheerschermen met status "Rejected" (rood kruis) en wordt het uit cijferscherm in Canvas en SIS verwijderd. In SIS is zichtbaar wie heeft verwijderd. Er kan opnieuw een cijfer worden ingevoerd door de docent.
