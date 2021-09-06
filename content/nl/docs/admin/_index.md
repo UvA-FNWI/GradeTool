@@ -2,7 +2,7 @@
 title: "Beheerschermen"
 linkTitle: "Beheerschermen"
 description: "Overzicht van de werking van de beheersschermen voor onderwijsadministraties"
-date: 2021-09-03
+date: 2021-09-06
 weight: 4
 ---
 
@@ -25,6 +25,8 @@ Dit scherm toont alle ingediende cijferlijsten, in drie categorieën:
 - Ingevoerd: ingeleverd door de docent, maar nog niet ondertekend.
 - Doorgeboekt: ondertekend, maar nog niet (volledig) in SIS verwerkt.
 - Afgehandeld: in SIS verwerkt of afgevinkt.
+
+Per lijst wordt de inleverdatum getoond; bij mouseover zie je de ook de tijd van inleveren. 
 
 Onder doorgeboekt of afgehandeld worden de volgende statussen getoond:
 - ![warning](/error.png): de lijst heeft openstaande fouten (indien de fout is dat de student niet is ingeschreven, dan is het icoon grijs, anders geel).
@@ -69,7 +71,7 @@ Dit scherm toont alle ingediende correcties, met een aantal extra kolommen die m
 Verder worden dezelfde statussen getoond als in de andere lijsten en kan er doorgeklikt worden naar de details van de lijst.
 
 ### Overzicht becijfering
-Dit scherm toont alle relevante vakken voor een faculteit, met de huidige status van de becijfering. De tentamendata worden getoond, en ook de data waarop er cijfers zijn ingeleverd (indien dit het geval is). Het is mogelijk om op een vak door te klikken om te zien wat voor reminders er zijn verstuurd, welke groepen er zijn en welke examinatoren daaraan zijn gekoppeld.
+Dit scherm toont alle relevante vakken voor een faculteit, met de huidige status van de becijfering. De tentamendata worden getoond, en ook de data waarop er cijfers zijn ingeleverd (indien dit het geval is). Het is mogelijk om op een vak door te klikken om te zien wat voor reminders er zijn verstuurd, welke groepen er zijn en welke examinatoren daaraan zijn gekoppeld. Het lijst-icoontje lijdt naar het cijferscherm zoals dat in Canvas wordt getoond.
 
 ### Informatie per vak
 Door naar een vak door te klikken of via de zoekfunctie rechtsboven een vak op te zoeken op naam of studiegidsnummer en dan naar ‘Cijfers inleveren’ te gaan, kom je op de overzichtspagina per vak. Hier zie je alle ingeleverde lijsten met status: 
@@ -80,3 +82,6 @@ Daarnaast kun je via de optie ‘Alle cijfers tonen’ een overzicht inzien van 
 
 ### Cijfers verwijderen
 Een (facultair) beheerder kan cijfers verwijderen via het moersleutel-icoontje in een ingeleverde cijferlijst. Bij verwijderen blijft het cijfer staan in de beheerschermen met status "Rejected" (rood kruis) en wordt het uit cijferscherm in Canvas en SIS verwijderd. In SIS is zichtbaar wie heeft verwijderd. Er kan opnieuw een cijfer worden ingevoerd door de docent.
+
+### Cijferlijst leegmaken
+In het cijferscherm zelf hebben beheerders een optie 'cijferlijt leegmaken' die alle nog niet ingeleverde cijfers weggooit in een gekozen kolom, bijvoorbeeld voor als er een foutieve import gedaan is. 

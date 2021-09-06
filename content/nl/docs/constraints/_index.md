@@ -2,7 +2,7 @@
 title: "Randvoorwaarden"
 linkTitle: "Randvoorwaarden"
 description: "Wat moet en kan er ingesteld worden om de applicatie te kunnen gebruiken?"
-date: 2021-04-23
+date: 2021-09-06
 weight: 1
 ---
 
@@ -28,7 +28,7 @@ Hetzelfde geldt voor wijzigingen in het vak die op de dag zelf zijn gedaan (bijv
 Alle studenten die voor het vak staan ingeschreven op een studieactiviteit op de werkvorm worden getoond. Er wordt niet gekeken naar inschrijven op studieactiviteiten in een T- of H-sessie. Studenten die waarvan de vakaanmelding wordt gestopt, verdwijnen van de lijst indien er geen eindcijfer is opgevoerd (anders blijven ze staan als handmatig toegevoegde studenten). Er wordt niet gekeken naar de status van de inschrijving de opleiding.
 
 ### Beoordelingsvoet
-De mogelijke beoordelingen worden bepaald door de geldige rij met waarden van de beoordelingsvoet in SIS. Cijfers tussen de 5 en 6 kunnen niet gegeven worden indien het vak een effective date voor 1 september 2018 heeft in SIS.
+De mogelijke beoordelingen worden bepaald door de geldige rij met waarden van de beoordelingsvoet in SIS. Cijfers tussen de 5 en 6 kunnen niet gegeven worden indien het vak een effective date voor 1 september 2018 heeft in SIS. Voor vakken met de NON-beoordelingsvoet is het niet mogelijk om cijfers in te leveren.
 
 ### Tentamendatum 
 De toetsdatum wordt als volgt bepaalt (zie ook [de flowchart](/flowchart_toetsdatum.pdf)):

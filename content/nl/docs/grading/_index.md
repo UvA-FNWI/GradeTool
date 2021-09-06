@@ -2,7 +2,7 @@
 title: "Invoeren cijfers"
 linkTitle: "Invoeren cijfers"
 description: "Beschrijving cijferinvoerschermen voor docenten"
-date: 2021-01-03
+date: 2021-09-06
 weight: 2
 ---
 
@@ -59,7 +59,7 @@ Na klikken op de rode knop Cijfers inleveren verschijnt een scherm waar de cijfe
 
 ![Kies lijst](/choose_list.nl.png)
 
-Als alles klopt, kunnen de cijfers worden doorgezet middels de Inleveren knop.
+Als alles klopt, kunnen de cijfers worden doorgezet middels de Inleveren knop. Cijfers kunnen alleen worden doorgezet voor studenten die in een groep zitten waarvan de ingelogde gebruiker examinator is. Voor studenten waarbij dit niet het geval is wordt een icoontje getoond, bij mouseover is zichtbaar welke examinatoren er ingesteld staan. 
 
 ### Digitaal ondertekenen
 
@@ -77,4 +77,4 @@ Na het indienen van cijfers is het mogelijk om via de 'correctie indienen' knop 
 
 ### Individuele vakken
 
-Voor individuele vakken kunnen op dezelfde manier cijfers worden ingevoerd. Extra is dat bij elk in te leveren cijfer een datum, titel en begeleider ingevoerd moet worden. Bij een herkansing of correctie kunnen deze waarden weer worden aangepast.
+Voor individuele vakken kunnen op dezelfde manier cijfers worden ingevoerd. Extra is dat bij elk in te leveren cijfer een datum, titel en begeleider ingevoerd moet worden. Bij een herkansing of correctie kunnen deze waarden weer worden aangepast. De tentamendatum kan alleen door een beheerder worden aangepast.

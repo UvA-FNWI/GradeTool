@@ -22,7 +22,7 @@
 <meta property="og:description" content="Overzicht van de werking van de beheersschermen voor onderwijsadministraties" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://uva-fnwi.github.io/GradeTool/nl/docs/admin/" />
-<meta property="og:updated_time" content="2021-09-03T00:00:00+00:00" /><meta property="og:site_name" content="Cijferregistratieapplicatie" />
+<meta property="og:updated_time" content="2021-09-06T00:00:00+00:00" /><meta property="og:site_name" content="Cijferregistratieapplicatie" />
 <meta itemprop="name" content="Beheerschermen">
 <meta itemprop="description" content="Overzicht van de werking van de beheersschermen voor onderwijsadministraties">
 <meta name="twitter:card" content="summary"/>
@@ -294,6 +294,7 @@
         <li><a href="#overzicht-becijfering">Overzicht becijfering</a></li>
         <li><a href="#informatie-per-vak">Informatie per vak</a></li>
         <li><a href="#cijfers-verwijderen">Cijfers verwijderen</a></li>
+        <li><a href="#cijferlijst-leegmaken">Cijferlijst leegmaken</a></li>
       </ul>
     </li>
   </ul>
@@ -354,6 +355,7 @@
 <li>Doorgeboekt: ondertekend, maar nog niet (volledig) in SIS verwerkt.</li>
 <li>Afgehandeld: in SIS verwerkt of afgevinkt.</li>
 </ul>
+<p>Per lijst wordt de inleverdatum getoond; bij mouseover zie je de ook de tijd van inleveren.</p>
 <p>Onder doorgeboekt of afgehandeld worden de volgende statussen getoond:</p>
 <ul>
 <li><img src="https://uva-fnwi.github.io/GradeTool/error.png" alt="warning">: de lijst heeft openstaande fouten (indien de fout is dat de student niet is ingeschreven, dan is het icoon grijs, anders geel).</li>
@@ -387,13 +389,15 @@
 </ul>
 <p>Verder worden dezelfde statussen getoond als in de andere lijsten en kan er doorgeklikt worden naar de details van de lijst.</p>
 <h3 id="overzicht-becijfering">Overzicht becijfering</h3>
-<p>Dit scherm toont alle relevante vakken voor een faculteit, met de huidige status van de becijfering. De tentamendata worden getoond, en ook de data waarop er cijfers zijn ingeleverd (indien dit het geval is). Het is mogelijk om op een vak door te klikken om te zien wat voor reminders er zijn verstuurd, welke groepen er zijn en welke examinatoren daaraan zijn gekoppeld.</p>
+<p>Dit scherm toont alle relevante vakken voor een faculteit, met de huidige status van de becijfering. De tentamendata worden getoond, en ook de data waarop er cijfers zijn ingeleverd (indien dit het geval is). Het is mogelijk om op een vak door te klikken om te zien wat voor reminders er zijn verstuurd, welke groepen er zijn en welke examinatoren daaraan zijn gekoppeld. Het lijst-icoontje lijdt naar het cijferscherm zoals dat in Canvas wordt getoond.</p>
 <h3 id="informatie-per-vak">Informatie per vak</h3>
 <p>Door naar een vak door te klikken of via de zoekfunctie rechtsboven een vak op te zoeken op naam of studiegidsnummer en dan naar ‘Cijfers inleveren’ te gaan, kom je op de overzichtspagina per vak. Hier zie je alle ingeleverde lijsten met status:</p>
 <p><img src="https://uva-fnwi.github.io/GradeTool/course_lists.nl.png" alt="Openstaand cijfer"></p>
 <p>Daarnaast kun je via de optie ‘Alle cijfers tonen’ een overzicht inzien van alle ingeleverde cijfers voor dit vak in het gekozen jaar.</p>
 <h3 id="cijfers-verwijderen">Cijfers verwijderen</h3>
 <p>Een (facultair) beheerder kan cijfers verwijderen via het moersleutel-icoontje in een ingeleverde cijferlijst. Bij verwijderen blijft het cijfer staan in de beheerschermen met status &ldquo;Rejected&rdquo; (rood kruis) en wordt het uit cijferscherm in Canvas en SIS verwijderd. In SIS is zichtbaar wie heeft verwijderd. Er kan opnieuw een cijfer worden ingevoerd door de docent.</p>
+<h3 id="cijferlijst-leegmaken">Cijferlijst leegmaken</h3>
+<p>In het cijferscherm zelf hebben beheerders een optie &lsquo;cijferlijt leegmaken&rsquo; die alle nog niet ingeleverde cijfers weggooit in een gekozen kolom, bijvoorbeeld voor als er een foutieve import gedaan is.</p>
 
         <div class="section-index">
     
@@ -404,14 +408,14 @@
     <hr class="panel-line">
         
             
+        
+            
                 <div class="entry">
                     <h5>
                         <a href="https://uva-fnwi.github.io/GradeTool/nl/docs/admin/settings/">Instellingen</a>
                     </h5>
                     <p>Globale instellingen per afdeling en herinneringsmails voor niet-ingeleverde cijfers</p>
                 </div>
-            
-        
             
         
             
@@ -436,7 +440,7 @@
 
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Laatst gewijzigd 03-09-2021
+	<div class="text-muted mt-5 pt-3 border-top">Laatst gewijzigd 06-09-2021
 </div>
 </div>
 
