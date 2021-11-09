@@ -26,7 +26,7 @@ Bij het instellen van de inhoud kunnen er een aantal parameters gebruikt worden.
 
 ### Planning en selectie
 
-Elke werkdag om 17 uur worden de mails uitgestuurd voor vakken waarbij er nog een cijfer openstaat en de betreffende mail niet eerder is gestuurd. Daarbij geldt:
+Elke werkdag om 9 uur worden de mails uitgestuurd voor vakken waarbij er nog een cijfer openstaat en de betreffende mail niet eerder is gestuurd. Daarbij geldt:
 
 - Individuele vakken en vakken met 0 EC worden niet meegenomen in de selectie
 - De mail wordt verstuurd als de ijkdatum (tentamendatum plus het ingestelde aantal dagen) in het verleden ligt, maar niet meer dan 15 dagen, om te verhinderen dat er achterhaalde mails verstuurd worden bij het instellen van een nieuwe herinnering
