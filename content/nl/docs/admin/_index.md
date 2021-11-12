@@ -2,7 +2,7 @@
 title: "Beheerschermen"
 linkTitle: "Beheerschermen"
 description: "Overzicht van de werking van de beheersschermen voor onderwijsadministraties"
-date: 2021-09-06
+date: 2021-11-12
 weight: 4
 ---
 
@@ -72,6 +72,8 @@ Verder worden dezelfde statussen getoond als in de andere lijsten en kan er door
 
 ### Overzicht becijfering
 Dit scherm toont alle relevante vakken voor een faculteit, met de huidige status van de becijfering. De tentamendata worden getoond, en ook de data waarop er cijfers zijn ingeleverd (indien dit het geval is). Het is mogelijk om op een vak door te klikken om te zien wat voor reminders er zijn verstuurd, welke groepen er zijn en welke examinatoren daaraan zijn gekoppeld. Het lijst-icoontje lijdt naar het cijferscherm zoals dat in Canvas wordt getoond.
+
+De lijst kan naar Excel worden geëxporteerd via de Excel-knop rechtsboven. Daarnaast geeft deze knop ook de mogelijkheid om een export te genereren van de gegevens van alle individuele groepen die bij de getoonde vakken horen.
 
 ### Informatie per vak
 Door naar een vak door te klikken of via de zoekfunctie rechtsboven een vak op te zoeken op naam of studiegidsnummer en dan naar ‘Cijfers inleveren’ te gaan, kom je op de overzichtspagina per vak. Hier zie je alle ingeleverde lijsten met status: 

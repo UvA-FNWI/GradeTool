@@ -1,0 +1,41 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cijferregistratieapplicatie – Release notes</title>
+    <link>https://uva-fnwi.github.io/GradeTool/nl/docs/release/</link>
+    <description>Recent content in Release notes on Cijferregistratieapplicatie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Nov 2021 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://uva-fnwi.github.io/GradeTool/nl/docs/release/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Release 2021-11-11</title>
+      <link>https://uva-fnwi.github.io/GradeTool/nl/docs/release/2021111/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://uva-fnwi.github.io/GradeTool/nl/docs/release/2021111/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Nieuwe functionaliteiten in deze release:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Voor individuele vakken waar een student op ingeschreven staat met een afwijkend aantal EC, wordt dit EC nu getoond in het cijferscherm bij uitklappen van het resultaat (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/111&#34;&gt;#94&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Op het scherm overzicht becijfering is er een nieuwe export beschikbaar gesteld, waarmee data op groepniveau geëexporteerd kan worden (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/109&#34;&gt;#109&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Voor deelcijfers worden (voor studenten en docenten) nu twee decimalen getoond wanneer relevant (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/106&#34;&gt;#106&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;De details van een individueel resultaat worden automatisch uitgeklapt wanneer er een cijfer wordt ingevoerd of het cijfer wordt geselecteerd (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/86&#34;&gt;#86&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Bij vakken waarbij er nog cijferlijsten openstaan om ondertekend te worden, wordt er bovenaan het cijferscherm een banner getoond om docenten daarop te wijzen (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/97&#34;&gt;#97&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Het is mogelijk voor beheerders of via het beheerscherm doorgeboekte cijfers te verwijderen uit SIS (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/57&#34;&gt;#57&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

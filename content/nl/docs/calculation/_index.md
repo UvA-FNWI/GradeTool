@@ -23,6 +23,9 @@ Daarnaast kunnen per onderdeel een aantal opties ingesteld worden:
 
 Voor een berekend cijfer met beoordeling voldaan/niet voldaan kunnen de 'vereist' en 'minimumcijfer' opties gebruikt worden om een berekende beoordeling in te stellen. Ook kan de optie om de laagste N cijfers te laten vallen hier ingezet worden om constructies te bouwen van de vorm "3 van de 4 opdrachten moeten gehaald zijn".
 
+### Afronding
+Cijfers kunnen in Canvas tot op maximaal twee decimalen nauwkeurig ingevoerd worden en worden ook op die manier in de berekening gebruikt. Intern rekent de taal met 7 decimalen voor berekende tussencijfers, in de weergave worden er altijd twee decimalen getoond. Eindcijfers worden afgerond volgens de in SIS ingesteld beoordelingsvoet, waarbij het in de resultaten per student wel mogelijk is om het onafgeronde eindcijfer te zien. 
+
 ### Koppelingen met toetssystemen
 Naast assignments uit Canvas, biedt de tool de mogelijkheid om cijfers uit de toetssystemen ANS, SOWISO en TestVision te gebruiken. In alle gevallen dient eerst een koppeling door een beheerder gemaakt te worden in het beheervenster van het vak:
 
