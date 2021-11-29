@@ -17,7 +17,7 @@ De instellingen kunnen op elk niveau (instelling, faculteit of subafdeling) inge
 ## Herinneringsmails
 Op het scherm "Herinneringen instellen" kunnen per faculteit herinneringsmails geconfigureerd worden. De herinneringen worden vervolgens automatisch verstuurd in een dagelijks batchproces voor alle vakken waarvoor er minstens 1 student is die nog een cijfer moet krijgen. Er kunnen meerdere herinneringen ingesteld worden, met verschillende data. Per herinnering kan ingesteld worden
 
-- Hoeveel dagen na de tentamendatum deze verstuurd wordt (of voor de tentamendatum, door een negatieve waarde in te vullen)
+- Hoeveel werkdagen na de tentamendatum deze verstuurd wordt (of voor de tentamendatum, door een negatieve waarde in te vullen)
 - De naam en email van de afzender
 - Een optioneel adres waar een cc naar wordt gestuurd
 - Het onderwerp en de inhoud van de mail

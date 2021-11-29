@@ -34,7 +34,7 @@
 &lt;h2 id=&#34;herinneringsmails&#34;&gt;Herinneringsmails&lt;/h2&gt;
 &lt;p&gt;Op het scherm &amp;ldquo;Herinneringen instellen&amp;rdquo; kunnen per faculteit herinneringsmails geconfigureerd worden. De herinneringen worden vervolgens automatisch verstuurd in een dagelijks batchproces voor alle vakken waarvoor er minstens 1 student is die nog een cijfer moet krijgen. Er kunnen meerdere herinneringen ingesteld worden, met verschillende data. Per herinnering kan ingesteld worden&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Hoeveel dagen na de tentamendatum deze verstuurd wordt (of voor de tentamendatum, door een negatieve waarde in te vullen)&lt;/li&gt;
+&lt;li&gt;Hoeveel werkdagen na de tentamendatum deze verstuurd wordt (of voor de tentamendatum, door een negatieve waarde in te vullen)&lt;/li&gt;
 &lt;li&gt;De naam en email van de afzender&lt;/li&gt;
 &lt;li&gt;Een optioneel adres waar een cc naar wordt gestuurd&lt;/li&gt;
 &lt;li&gt;Het onderwerp en de inhoud van de mail&lt;/li&gt;
