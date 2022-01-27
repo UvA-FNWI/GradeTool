@@ -15,7 +15,10 @@ Er zijn een aantal verschillende rollen die aan gebruikers toegekend kunnen word
 - Cijferbeheerder (alleen lezen): heeft toegang tot alle cijferschermen maar kan niets aanpassen
 - Cijferinleveraar: kan namens iedere examinator cijfers inleveren en doorboeken
 - Latecorrectiegoedkeurder: heeft toegang tot het overzicht correcties en kan laat ingediende correcties goed of afkeuren
+- Cijferverwijderaar: kan ingevoerde cijfers (uit SIS) verwijderen
 - Medewerker VU-cijferverwerking: kan studenten opzoeken en VU-cijfers binnenhalen
+
+Zie [rollen]({{< relref "roles" >}}) voor een volledig overzicht van de acties die aan deze rollen zijn gekoppeld.
 
 ### Overzicht cijferlijsten
 

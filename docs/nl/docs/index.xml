@@ -5,7 +5,7 @@
     <description>Recent content in Documentatie on Cijferregistratieapplicatie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Jan 2022 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="https://uva-fnwi.github.io/GradeTool/nl/docs/index.xml" rel="self" type="application/rss+xml" />
     
@@ -88,6 +88,75 @@
 &lt;p&gt;Er kunnen meerdere subcursussen aan één &amp;lsquo;target&amp;rsquo; (=hoofdcursus) gekoppeld worden en het menu toont dan alle vakken. De cijferlijsten in de tool tonen altijd de studenten die in SIS ingeschreven staan voor het vak.&lt;/p&gt;
 &lt;p&gt;De rechten die een gebruiker vanuit Canvas krijgt om cijfers in te bekijken en in te voeren gelden dan ook voor alle gekoppelde cursussen. Docenten hoeven dus niet in Canvas toegang tot alle cursussen te hebben. De examinator-check bij het inleveren is onveranderd, docenten kunnen alleen cijfers inleveren voor die cursussen waarbij ze in SIS zijn gekoppeld.&lt;/p&gt;
 &lt;p&gt;De cijferberekening kan alleen ingesteld worden voor de hoofdcursus en wordt dan gebruikt door de andere cursussen. De berekenknop in de subcursus haalt de cijfers uit Canvas binnen vanuit de hoofdcursus en voert daarna de berekening uit voor de studenten die in de subcursus staan ingeschreven. Cijfers worden per cursus ingeleverd onafhankelijk van elkaar.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Rollen</title>
+      <link>https://uva-fnwi.github.io/GradeTool/nl/docs/admin/roles/</link>
+      <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://uva-fnwi.github.io/GradeTool/nl/docs/admin/roles/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;cijferbeheerder-alleen-inzage-uva&#34;&gt;Cijferbeheerder (Alleen Inzage, UvA)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;AccessCorrectionOverview: Inzien correctieoverzicht&lt;/li&gt;
+&lt;li&gt;AccessCourseGradeInput: Inzien cijferlijst&lt;/li&gt;
+&lt;li&gt;AccessCourseGradeLists: Inzien cijferlijsten per cursus&lt;/li&gt;
+&lt;li&gt;AccessGradeDates: Inzien overzicht cursussen&lt;/li&gt;
+&lt;li&gt;AccessGradeOverview: Inzien overzicht cijferlijsten&lt;/li&gt;
+&lt;li&gt;AccessPendingGrades: Inzien openstaande cijferlijsten&lt;/li&gt;
+&lt;li&gt;CourseUpdateData: Update data knop in Canvas&lt;/li&gt;
+&lt;li&gt;GradesFilterUnprocessed: Ingediende cijferlijsten filteren op status&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;cijferbeheerder-uva&#34;&gt;Cijferbeheerder (UvA)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;AccessCorrectionOverview: Inzien correctieoverzicht&lt;/li&gt;
+&lt;li&gt;AccessCourseGradeInput: Inzien cijferlijst&lt;/li&gt;
+&lt;li&gt;AccessCourseGradeLists: Inzien cijferlijsten per cursus&lt;/li&gt;
+&lt;li&gt;AccessGradeDates: Inzien overzicht cursussen&lt;/li&gt;
+&lt;li&gt;AccessGradeOverview: Inzien overzicht cijferlijsten&lt;/li&gt;
+&lt;li&gt;AccessManageReminders: Beheren herinneringsmails&lt;/li&gt;
+&lt;li&gt;AccessPendingGrades: Inzien openstaande cijferlijsten&lt;/li&gt;
+&lt;li&gt;CourseAccessExamSetup: Instellen koppelingen externe systemen&lt;/li&gt;
+&lt;li&gt;CourseUpdateData: Update data knop in Canvas&lt;/li&gt;
+&lt;li&gt;CourseViewAllGrades: Alle cijfers inzien&lt;/li&gt;
+&lt;li&gt;GradesApproveLateCorrections: Late correcties goedkeuren&lt;/li&gt;
+&lt;li&gt;GradesApproveOtherStudents: Goed/afkeuren toegevoegde studenten&lt;/li&gt;
+&lt;li&gt;GradesEditAcademicYear: Aanpassen academisch jaar ingeleverde cijferlijst&lt;/li&gt;
+&lt;li&gt;GradesEditDate: Aanpassen toetsdatum ingeleverde cijferlijst&lt;/li&gt;
+&lt;li&gt;GradesFilterUnprocessed: Ingediende cijferlijsten filteren op status&lt;/li&gt;
+&lt;li&gt;GradesProcessSIS: Doorboeking naar SIS starten op beheerscherm&lt;/li&gt;
+&lt;li&gt;GradesSetHandled: Cijferlijsten afvinken in overzicht&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;cijferinleveraar&#34;&gt;Cijferinleveraar&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;CourseEditGrades: Invoeren cijfers&lt;/li&gt;
+&lt;li&gt;CourseSubmitGrades: Indienen cijfers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;cijferverwijderaar&#34;&gt;Cijferverwijderaar&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;GradesDelete: Cijfers verwijderen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;facultair-beheerder&#34;&gt;Facultair beheerder&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;AccessDepartmentSettings: Globale instellingen aanpassen (o.a. einddatum)&lt;/li&gt;
+&lt;li&gt;EditDelegatedRoles: Rollen toekennen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;latecorrectiegoedkeurder&#34;&gt;Latecorrectiegoedkeurder&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;AccessCorrectionOverview: Inzien correctieoverzicht&lt;/li&gt;
+&lt;li&gt;AccessCourseGradeInput: Inzien cijferlijst&lt;/li&gt;
+&lt;li&gt;GradesApproveLateCorrections: Late correcties goedkeuren&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;medewerker-vu-cijferverwerking&#34;&gt;Medewerker VU-cijferverwerking&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;StudentProcessVUGrades: VU cijfers doorzetten&lt;/li&gt;
+&lt;li&gt;StudentViewVUGrades: VU cijfers opvragen en inzien&lt;/li&gt;
+&lt;/ul&gt;
 
       </description>
     </item>

@@ -18,22 +18,22 @@
 <link rel="icon" type="image/png" href="https://uva-fnwi.github.io/GradeTool/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="https://uva-fnwi.github.io/GradeTool/favicons/android-192x192.png" sizes="192x192">
 
-<title>Instellingen | Cijferregistratieapplicatie</title>
-<meta name="description" content="Globale instellingen per afdeling en herinneringsmails voor niet-ingeleverde cijfers">
-<meta property="og:title" content="Instellingen" />
-<meta property="og:description" content="Globale instellingen per afdeling en herinneringsmails voor niet-ingeleverde cijfers" />
+<title>Rollen | Cijferregistratieapplicatie</title>
+<meta name="description" content="Gekoppeld acties per gebruikersrol">
+<meta property="og:title" content="Rollen" />
+<meta property="og:description" content="Gekoppeld acties per gebruikersrol" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://uva-fnwi.github.io/GradeTool/nl/docs/admin/settings/" /><meta property="article:section" content="docs" />
-<meta property="article:published_time" content="2021-07-27T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-07-27T00:00:00+00:00" /><meta property="og:site_name" content="Cijferregistratieapplicatie" />
+<meta property="og:url" content="https://uva-fnwi.github.io/GradeTool/nl/docs/admin/roles/" /><meta property="article:section" content="docs" />
+<meta property="article:published_time" content="2022-01-27T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-01-27T00:00:00+00:00" /><meta property="og:site_name" content="Cijferregistratieapplicatie" />
 
-<meta itemprop="name" content="Instellingen">
-<meta itemprop="description" content="Globale instellingen per afdeling en herinneringsmails voor niet-ingeleverde cijfers"><meta itemprop="datePublished" content="2021-07-27T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2021-07-27T00:00:00+00:00" />
-<meta itemprop="wordCount" content="329">
+<meta itemprop="name" content="Rollen">
+<meta itemprop="description" content="Gekoppeld acties per gebruikersrol"><meta itemprop="datePublished" content="2022-01-27T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-01-27T00:00:00+00:00" />
+<meta itemprop="wordCount" content="164">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Instellingen"/>
-<meta name="twitter:description" content="Globale instellingen per afdeling en herinneringsmails voor niet-ingeleverde cijfers"/>
+<meta name="twitter:title" content="Rollen"/>
+<meta name="twitter:description" content="Gekoppeld acties per gebruikersrol"/>
 
 
 
@@ -126,12 +126,12 @@
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-nldocsadmin-li">
   <a href="https://uva-fnwi.github.io/GradeTool/nl/docs/admin/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-nldocsadmin"><span class="">Beheerschermen</span></a>
   <ul class="ul-2 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-nldocsadminsettings-li">
-  <a href="https://uva-fnwi.github.io/GradeTool/nl/docs/admin/settings/" class="align-left pl-0 active td-sidebar-link td-sidebar-link__page" id="m-nldocsadminsettings"><span class="td-sidebar-nav-active-item">Instellingen</span></a>
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-nldocsadminsettings-li">
+  <a href="https://uva-fnwi.github.io/GradeTool/nl/docs/admin/settings/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-nldocsadminsettings"><span class="">Instellingen</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-nldocsadmincourse-links-li">
   <a href="https://uva-fnwi.github.io/GradeTool/nl/docs/admin/course-links/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-nldocsadmincourse-links"><span class="">Gekoppelde cursussen</span></a>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-nldocsadminroles-li">
-  <a href="https://uva-fnwi.github.io/GradeTool/nl/docs/admin/roles/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-nldocsadminroles"><span class="">Rollen</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-nldocsadminroles-li">
+  <a href="https://uva-fnwi.github.io/GradeTool/nl/docs/admin/roles/" class="align-left pl-0 active td-sidebar-link td-sidebar-link__page" id="m-nldocsadminroles"><span class="td-sidebar-nav-active-item">Rollen</span></a>
 </li>
   </ul>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-nldocscalculation-li">
@@ -162,10 +162,15 @@
 
 <div class="td-toc"><nav id="TableOfContents">
   <ul>
-    <li><a href="#basisinstellingen">Basisinstellingen</a></li>
-    <li><a href="#herinneringsmails">Herinneringsmails</a>
+    <li>
       <ul>
-        <li><a href="#planning-en-selectie">Planning en selectie</a></li>
+        <li><a href="#cijferbeheerder-alleen-inzage-uva">Cijferbeheerder (Alleen Inzage, UvA)</a></li>
+        <li><a href="#cijferbeheerder-uva">Cijferbeheerder (UvA)</a></li>
+        <li><a href="#cijferinleveraar">Cijferinleveraar</a></li>
+        <li><a href="#cijferverwijderaar">Cijferverwijderaar</a></li>
+        <li><a href="#facultair-beheerder">Facultair beheerder</a></li>
+        <li><a href="#latecorrectiegoedkeurder">Latecorrectiegoedkeurder</a></li>
+        <li><a href="#medewerker-vu-cijferverwerking">Medewerker VU-cijferverwerking</a></li>
       </ul>
     </li>
   </ul>
@@ -226,7 +231,7 @@
 
 
 <li class="breadcrumb-item active" aria-current="page">
-	<a href="https://uva-fnwi.github.io/GradeTool/nl/docs/admin/settings/">Instellingen</a>
+	<a href="https://uva-fnwi.github.io/GradeTool/nl/docs/admin/roles/">Rollen</a>
 </li>
 
 	</ol>
@@ -234,8 +239,8 @@
 
             
 <div class="td-content">
-	<h1>Instellingen</h1>
-	<div class="lead">Globale instellingen per afdeling en herinneringsmails voor niet-ingeleverde cijfers</div>
+	<h1>Rollen</h1>
+	<div class="lead">Gekoppeld acties per gebruikersrol</div>
 	<header class="article-meta">
 		
 		
@@ -251,30 +256,62 @@
 		
 		
 	</header>    
-	<h2 id="basisinstellingen">Basisinstellingen</h2>
-<p>Op het scherm &ldquo;Instellingen afdelingen&rdquo; kunnen er globale instellingen worden gezet voor de cijferberekening. Momenteel zijn er twee instellingen:</p>
+	<h3 id="cijferbeheerder-alleen-inzage-uva">Cijferbeheerder (Alleen Inzage, UvA)</h3>
 <ul>
-<li>Einddatum: na deze datum is het voor docenten niet meer mogelijk om zelf cijfers in te leveren (medewerkers van de onderwijsadministratie die daartoe bevoegd zijn, kunnen dat wel)</li>
-<li>Studenten toevoegen uitschakelen: indien ingesteld is het niet mogelijk voor docenten om studenten toe te voegen aan de cijferlijst</li>
+<li>AccessCorrectionOverview: Inzien correctieoverzicht</li>
+<li>AccessCourseGradeInput: Inzien cijferlijst</li>
+<li>AccessCourseGradeLists: Inzien cijferlijsten per cursus</li>
+<li>AccessGradeDates: Inzien overzicht cursussen</li>
+<li>AccessGradeOverview: Inzien overzicht cijferlijsten</li>
+<li>AccessPendingGrades: Inzien openstaande cijferlijsten</li>
+<li>CourseUpdateData: Update data knop in Canvas</li>
+<li>GradesFilterUnprocessed: Ingediende cijferlijsten filteren op status</li>
 </ul>
-<p>De instellingen kunnen op elk niveau (instelling, faculteit of subafdeling) ingesteld worden. Er wordt altijd het laagste niveau gebruikt dat is ingesteld.</p>
-<h2 id="herinneringsmails">Herinneringsmails</h2>
-<p>Op het scherm &ldquo;Herinneringen instellen&rdquo; kunnen per faculteit herinneringsmails geconfigureerd worden. De herinneringen worden vervolgens automatisch verstuurd in een dagelijks batchproces voor alle vakken waarvoor er minstens 1 student is die nog een cijfer moet krijgen. Er kunnen meerdere herinneringen ingesteld worden, met verschillende data. Per herinnering kan ingesteld worden</p>
+<h3 id="cijferbeheerder-uva">Cijferbeheerder (UvA)</h3>
 <ul>
-<li>Hoeveel werkdagen na de tentamendatum deze verstuurd wordt (of voor de tentamendatum, door een negatieve waarde in te vullen)</li>
-<li>De naam en email van de afzender</li>
-<li>Een optioneel adres waar een cc naar wordt gestuurd</li>
-<li>Het onderwerp en de inhoud van de mail</li>
+<li>AccessCorrectionOverview: Inzien correctieoverzicht</li>
+<li>AccessCourseGradeInput: Inzien cijferlijst</li>
+<li>AccessCourseGradeLists: Inzien cijferlijsten per cursus</li>
+<li>AccessGradeDates: Inzien overzicht cursussen</li>
+<li>AccessGradeOverview: Inzien overzicht cijferlijsten</li>
+<li>AccessManageReminders: Beheren herinneringsmails</li>
+<li>AccessPendingGrades: Inzien openstaande cijferlijsten</li>
+<li>CourseAccessExamSetup: Instellen koppelingen externe systemen</li>
+<li>CourseUpdateData: Update data knop in Canvas</li>
+<li>CourseViewAllGrades: Alle cijfers inzien</li>
+<li>GradesApproveLateCorrections: Late correcties goedkeuren</li>
+<li>GradesApproveOtherStudents: Goed/afkeuren toegevoegde studenten</li>
+<li>GradesEditAcademicYear: Aanpassen academisch jaar ingeleverde cijferlijst</li>
+<li>GradesEditDate: Aanpassen toetsdatum ingeleverde cijferlijst</li>
+<li>GradesFilterUnprocessed: Ingediende cijferlijsten filteren op status</li>
+<li>GradesProcessSIS: Doorboeking naar SIS starten op beheerscherm</li>
+<li>GradesSetHandled: Cijferlijsten afvinken in overzicht</li>
 </ul>
-<p>Bij het instellen van de inhoud kunnen er een aantal parameters gebruikt worden.</p>
-<h3 id="planning-en-selectie">Planning en selectie</h3>
-<p>Elke werkdag om 9 uur worden de mails uitgestuurd voor vakken waarbij er nog een cijfer openstaat en de betreffende mail niet eerder is gestuurd. Daarbij geldt:</p>
+<h3 id="cijferinleveraar">Cijferinleveraar</h3>
 <ul>
-<li>Individuele vakken en vakken met 0 EC worden niet meegenomen in de selectie</li>
-<li>De mail wordt verstuurd als de ijkdatum (tentamendatum plus het ingestelde aantal dagen) in het verleden ligt, maar niet meer dan 15 dagen, om te verhinderen dat er achterhaalde mails verstuurd worden bij het instellen van een nieuwe herinnering</li>
-<li>De mail gaat naar alle examinatoren die bij het vak betrokken zijn, ook al hebben zij misschien in hun eigen groep geen cijfers meer openstaan</li>
+<li>CourseEditGrades: Invoeren cijfers</li>
+<li>CourseSubmitGrades: Indienen cijfers</li>
 </ul>
-<p>De testknop op het configuratiescherm kan gebruikt worden om te kijken of er in de volgende run een mail verstuurd gaat worden voor een zeker vak.</p>
+<h3 id="cijferverwijderaar">Cijferverwijderaar</h3>
+<ul>
+<li>GradesDelete: Cijfers verwijderen</li>
+</ul>
+<h3 id="facultair-beheerder">Facultair beheerder</h3>
+<ul>
+<li>AccessDepartmentSettings: Globale instellingen aanpassen (o.a. einddatum)</li>
+<li>EditDelegatedRoles: Rollen toekennen</li>
+</ul>
+<h3 id="latecorrectiegoedkeurder">Latecorrectiegoedkeurder</h3>
+<ul>
+<li>AccessCorrectionOverview: Inzien correctieoverzicht</li>
+<li>AccessCourseGradeInput: Inzien cijferlijst</li>
+<li>GradesApproveLateCorrections: Late correcties goedkeuren</li>
+</ul>
+<h3 id="medewerker-vu-cijferverwerking">Medewerker VU-cijferverwerking</h3>
+<ul>
+<li>StudentProcessVUGrades: VU cijfers doorzetten</li>
+<li>StudentViewVUGrades: VU cijfers opvragen en inzien</li>
+</ul>
 
 	
 	
