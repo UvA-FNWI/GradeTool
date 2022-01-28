@@ -1,7 +1,7 @@
 ---
 title: "Rollen"
 linkTitle: "Rollen"
-description: "Gekoppeld acties per gebruikersrol"
+description: "Gekoppelde acties per gebruikersrol"
 date: 2022-01-27
 weight: 0
 ---
