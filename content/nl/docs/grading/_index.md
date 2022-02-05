@@ -14,7 +14,7 @@ Door te klikken op het vakje met het cijfer, kan het cijfer handmatig worden aan
 
 Wanneer een cijfer handmatig is aangepast, geeft Canvas dit expliciet aan door vóór het cijfer de aanduiding EDITED te zetten.
 
-Bij een vak met meerdere werkgroepen is het mogelijk om te filteren op werkgroep: 
+Bij een vak met meerdere werkgroepen is het mogelijk om te filteren op één of meer werkgroepen: 
 
 ![Groepfilter](/group_filter.nl.png)
 
@@ -59,14 +59,14 @@ Na klikken op de rode knop Cijfers inleveren verschijnt een scherm waar de cijfe
 
 ![Kies lijst](/choose_list.nl.png)
 
-Als alles klopt, kunnen de cijfers worden doorgezet middels de Inleveren knop. Cijfers kunnen alleen worden doorgezet voor studenten die in een groep zitten waarvan de ingelogde gebruiker examinator is. Voor studenten waarbij dit niet het geval is wordt een icoontje getoond, bij mouseover is zichtbaar welke examinatoren er ingesteld staan. 
+Als alles klopt, kunnen de cijfers worden doorgezet middels de Inleveren knop. Cijfers kunnen alleen worden doorgezet voor studenten die in een groep zitten waarvan de ingelogde gebruiker examinator is. Voor studenten waarbij dit niet het geval is wordt een icoontje getoond, bij mouseover is zichtbaar welke examinatoren er ingesteld staan. Ook kan er in de rechterbolk op het i-icoontje bij de examinatoren geklikt worden om een overzicht te krijgen van alle groepen en ingestelde examinatoren.
 
 ### Digitaal ondertekenen
 
 Na het inleveren dient de cijferlijst digitaal te worden ondertekend, waarna de cijfers in de officiële UvA cijferadministratie worden opgenomen. Zowel het inleveren als het digitaal ondertekenen kan alleen gebeuren door de examinator van het vak. In de meeste gevallen zal dit de vakcoördinator van het vak zijn. 
-Nb. Indien het inleveren van de cijferlijst niet lukt omdat Canvas meldt dat de lijst alleen door de examinator mag worden ondertekend, neem dan contact op met het onderwijsbureau van de faculteit (of het domein) waar het vak onder valt.
- 
-Het digitaal ondertekenen van de cijferlijst gebeurt met een dubbele verificatie: Twee-factor authenticatie genoemd. De eerste verificatiestap is, als het goed is al gedaan: deze stap bestaat uit het inloggen in Canvas. Alleen als de examinator is ingelogd, kan die de cijfers bevestigen via de Inlever knop. Na het klikken op die volgt de tweede verificatiestap: een extra controle ter bevestiging dat het inderdaad de juiste persoon is die de cijfers inlevert. Hiervoor wordt gebruik gemaakt van een zogeheten 'token' die ofwel via een app op je mobiele telefoon, ofwel via een speciale usb-stick, de Yubikey, kan worden gegenereerd.
+Nb. indien het inleveren van de cijferlijst niet lukt omdat Canvas meldt dat de lijst alleen door de examinator mag worden ondertekend, neem dan contact op met het onderwijsbureau van de faculteit (of het domein) waar het vak onder valt.
+
+Het digitaal ondertekenen van de cijferlijst gebeurt met een dubbele verificatie via SURF twee-factor authenticatie. De eerste verificatiestap is, als het goed is al gedaan: deze stap bestaat uit het inloggen in Canvas. Alleen als de examinator is ingelogd, kan die de cijfers bevestigen via de Inlever knop. Na het klikken op die volgt de tweede verificatiestap: een extra controle ter bevestiging dat het inderdaad de juiste persoon is die de cijfers inlevert. Hiervoor wordt gebruik gemaakt van een zogeheten 'token' die ofwel via een app op je mobiele telefoon, ofwel via een speciale usb-stick, de Yubikey, kan worden gegenereerd.
 Voor meer informatie over het gebruiken van een token, zie [de medewerkerssite](https://medewerker.uva.nl/fnwi/shared-content-secured/medewerkersites/uva-medewerkers/nl/az/tweestapsverificatie/surf/surf.html).
 
 Als het om een of andere reden niet meteen lukt om de tweede verificatiestap met het token te doen, kan deze stap ook op een later moment worden gedaan. Op de Eindcijfer-pagina zijn nog niet volledig ondertekende cijferlijsten te vinden onder de rode knop voor Cijfers inleveren, onder het kopje "Nog niet ondertekend". 
@@ -80,3 +80,15 @@ Na het indienen van cijfers is het mogelijk om via de 'correctie indienen' knop 
 Voor individuele vakken kunnen op dezelfde manier cijfers worden ingevoerd. Extra is dat bij elk in te leveren cijfer een datum, titel en begeleider ingevoerd moet worden. Bij een herkansing of correctie kunnen deze waarden weer worden aangepast. De tentamendatum kan alleen door een beheerder worden aangepast.
 
 Indien de student een inschrijving voor het vak heeft met een afwijkend aantal EC, dan wordt naast bovengenoemde velden ook dit aantal EC getoond. Het cijfer wordt dan ook voor dat aantal EC geboekt.
+
+### Statieken
+
+Na inleveren van cijfers zijn er statistieken beschikbaar via de 'Cijferstatieken' link in het cijferscherm. Deze geven een overzicht van de ingeleverde cijfers, voor zowel de eerste kans als de herkansing. De volgende waarden worden getoond:
+- Ingeschreven: het aantal studenten die voor het vak staat ingeschreven.
+- Ingeleverd: het aantal ingeleverde cijfers.
+- Niet aanwezig: het aantal NAPs.
+- Beoordeeld: het aantal studenten met een een beoordeling (ingeleverd - niet aanwezig).
+- Voldoende: het aantal studenten met een ingeleverde voldoende beoordeling.
+- Onvoldoende: het aantal studenten met een ingeleverde onvoldoende beoordeling.
+
+Bij 10 of meer ingeleverde cijfers wordt er ook een grafiek van de cijfers getoond.

@@ -52,6 +52,7 @@ Per cijfer zie je de verwerkingsstatus, met een mouseover met meer informatie (b
 - Kan geen studieactiviteit aanmaken. Het is niet mogelijk om de benodigde T-activiteit aan te maken, bijv. doordat het studiedeel op inactief staat.
 - Student heeft geen actieve inschrijving. De student is niet actief voor inschrijving in de betreffende periode.
 - De tentamendatum valt buiten de sessie. De opgegeven tentamendatum komt niet overeen met de sessie van het vak.
+- Student heeft al een vrijstelling voor het vak. Als er op enig eerder moment een vrijstelling is ingevoerd voor deze student, dan worden NAP en NAV niet verwerkt.
 
 Overige (onverwachte) fouten worden als 'onbekende fout' getoond; door de cijferlijst nogmaals te laten verwerken kun je zien wat er precies foutgaat. Op deze fouten wordt actief gemonitord door centraal beheer.
 
