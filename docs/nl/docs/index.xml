@@ -5,7 +5,7 @@
     <description>Recent content in Documentatie on Cijferregistratieapplicatie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Feb 2022 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="https://uva-fnwi.github.io/GradeTool/nl/docs/index.xml" rel="self" type="application/rss+xml" />
     
@@ -88,6 +88,27 @@
 &lt;p&gt;Er kunnen meerdere subcursussen aan één &amp;lsquo;target&amp;rsquo; (=hoofdcursus) gekoppeld worden en het menu toont dan alle vakken. De cijferlijsten in de tool tonen altijd de studenten die in SIS ingeschreven staan voor het vak.&lt;/p&gt;
 &lt;p&gt;De rechten die een gebruiker vanuit Canvas krijgt om cijfers in te bekijken en in te voeren gelden dan ook voor alle gekoppelde cursussen. Docenten hoeven dus niet in Canvas toegang tot alle cursussen te hebben. De examinator-check bij het inleveren is onveranderd, docenten kunnen alleen cijfers inleveren voor die cursussen waarbij ze in SIS zijn gekoppeld.&lt;/p&gt;
 &lt;p&gt;De cijferberekening kan alleen ingesteld worden voor de hoofdcursus en wordt dan gebruikt door de andere cursussen. De berekenknop in de subcursus haalt de cijfers uit Canvas binnen vanuit de hoofdcursus en voert daarna de berekening uit voor de studenten die in de subcursus staan ingeschreven. Cijfers worden per cursus ingeleverd onafhankelijk van elkaar.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Release 2022-02-17</title>
+      <link>https://uva-fnwi.github.io/GradeTool/nl/docs/release/20220217/</link>
+      <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://uva-fnwi.github.io/GradeTool/nl/docs/release/20220217/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Nieuwe functionaliteiten in deze release:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Het is mogelijk om op meerdere groepen tegelijk te filteren in het cijferscherm (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/119&#34;&gt;#119&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Docenten kunnen eenvoudige statistieken van ingeleverde cijfers inzien  (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/92&#34;&gt;#92&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Na inleveren van een cijferlijst wordt er een dialoogvenster getoond dat verdwijnt nadat je lijst is ondertekend (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/117&#34;&gt;#117&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Het boeken van een NAP of NAV wordt geblokkeerd voor een student die een vrijstelling heeft (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/120&#34;&gt;#120&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Het is op de cijferpagina mogelijk om een lijst van alle groepen met examinatoren in te zien (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/110&#34;&gt;#110&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
 
       </description>
     </item>

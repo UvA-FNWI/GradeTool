@@ -37,5 +37,26 @@
       </description>
     </item>
     
+    <item>
+      <title>Docs: Release 2022-02-17</title>
+      <link>https://uva-fnwi.github.io/GradeTool/nl/docs/release/20220217/</link>
+      <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://uva-fnwi.github.io/GradeTool/nl/docs/release/20220217/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Nieuwe functionaliteiten in deze release:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Het is mogelijk om op meerdere groepen tegelijk te filteren in het cijferscherm (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/119&#34;&gt;#119&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Docenten kunnen eenvoudige statistieken van ingeleverde cijfers inzien  (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/92&#34;&gt;#92&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Na inleveren van een cijferlijst wordt er een dialoogvenster getoond dat verdwijnt nadat je lijst is ondertekend (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/117&#34;&gt;#117&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Het boeken van een NAP of NAV wordt geblokkeerd voor een student die een vrijstelling heeft (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/120&#34;&gt;#120&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Het is op de cijferpagina mogelijk om een lijst van alle groepen met examinatoren in te zien (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/110&#34;&gt;#110&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>
