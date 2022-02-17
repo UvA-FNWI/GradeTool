@@ -52,7 +52,7 @@ Er kan per vak ingesteld worden (met studiedeelkenmerk CVPA op de onderwijseenhe
 Per faculteit (waarbij FMG telt als 4) kan ingesteld worden:
 - Of het mogelijk is om studenten toe te voegen aan een cijferlijst
 - Wat de einddatum is voor cijferregistratie (d.w.z. tot welke datum per academisch jaar docenten cijfers kunnen indienen). Let op: het is voor docenten nooit mogelijk om cijfers in te leveren in een vak van voor het laatst afgelopen academisch jaar.
-- [Herinneringen](../admin/reminders)
+- [Herinneringen](../admin/settings#herinneringsmails)
 
 ### Vrijstellingen
 De cijferlijst toont standaard alle studenten die op de Y-activiteit of op een onderliggende activiteit in dezelfde sessie ingeschreven staan. Bij het boeken van een vrijstelling voor een student die niet voor het vak staat ingeschreven, is het dus niet handig om een bestaande activiteit te hergebruiken, want dan verschijnt de student in de cijferlijst. Boek daarom vrijstellingen in een andere sessie dan waar het vak zelf loopt (bijv. op een Y-activiteit).

@@ -81,9 +81,9 @@ Voor individuele vakken kunnen op dezelfde manier cijfers worden ingevoerd. Extr
 
 Indien de student een inschrijving voor het vak heeft met een afwijkend aantal EC, dan wordt naast bovengenoemde velden ook dit aantal EC getoond. Het cijfer wordt dan ook voor dat aantal EC geboekt.
 
-### Statieken
+### Statistieken
 
-Na inleveren van cijfers zijn er statistieken beschikbaar via de 'Cijferstatieken' link in het cijferscherm. Deze geven een overzicht van de ingeleverde cijfers, voor zowel de eerste kans als de herkansing. De volgende waarden worden getoond:
+Na inleveren van cijfers zijn er statistieken beschikbaar via de 'Cijferstatistieken' link in het cijferscherm. Deze geven een overzicht van de ingeleverde cijfers, voor zowel de eerste kans als de herkansing. De volgende waarden worden getoond:
 - Ingeschreven: het aantal studenten die voor het vak staat ingeschreven.
 - Ingeleverd: het aantal ingeleverde cijfers.
 - Niet aanwezig: het aantal NAPs.
