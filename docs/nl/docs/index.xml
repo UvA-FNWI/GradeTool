@@ -178,6 +178,34 @@
 &lt;li&gt;StudentProcessVUGrades: VU cijfers doorzetten&lt;/li&gt;
 &lt;li&gt;StudentViewVUGrades: VU cijfers opvragen en inzien&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;canvas-permissies&#34;&gt;Canvas-permissies&lt;/h3&gt;
+&lt;p&gt;De volgende acties worden op basis van permissies in Canvas toegekend.&lt;/p&gt;
+&lt;h4 id=&#34;read_course_content&#34;&gt;read_course_content&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;AccessCourseGrading: Inzien cijferberekening&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;manage_assignments_add&#34;&gt;manage_assignments_add&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;CourseDefineExams: Instellen cijferberekening&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;manage_grades&#34;&gt;manage_grades&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;AccessCourseGradeInput: Inzien cijferlijst&lt;/li&gt;
+&lt;li&gt;CourseCalculateGrades: Cijfers berekenen&lt;/li&gt;
+&lt;li&gt;CourseEditGrades: Invoeren cijfers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;view_all_grades&#34;&gt;view_all_grades&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;AccessCourseGradeInput: Inzien cijferlijst&lt;/li&gt;
+&lt;li&gt;AccessCourseGradeLists: Inzien cijferlijsten per cursus&lt;/li&gt;
+&lt;li&gt;CourseViewAllGrades: Alle cijfers inzien&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;manage_courses_add&#34;&gt;manage_courses_add&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;CourseAccessExamSetup: Instellen koppelingen externe systemen&lt;/li&gt;
+&lt;li&gt;CourseEditExternalIDs: Instellingen koppelingen met toetssystemen&lt;/li&gt;
+&lt;li&gt;CourseUpdateData: Update data knop in Canvas&lt;/li&gt;
+&lt;/ul&gt;
 
       </description>
     </item>

@@ -61,3 +61,33 @@ weight: 0
 
 - StudentProcessVUGrades: VU cijfers doorzetten
 - StudentViewVUGrades: VU cijfers opvragen en inzien
+
+### Canvas-permissies
+
+De volgende acties worden op basis van permissies in Canvas toegekend.
+
+#### read_course_content
+
+- AccessCourseGrading: Inzien cijferberekening
+
+#### manage_assignments_add
+
+- CourseDefineExams: Instellen cijferberekening
+
+#### manage_grades
+
+- AccessCourseGradeInput: Inzien cijferlijst
+- CourseCalculateGrades: Cijfers berekenen
+- CourseEditGrades: Invoeren cijfers
+
+#### view_all_grades
+
+- AccessCourseGradeInput: Inzien cijferlijst
+- AccessCourseGradeLists: Inzien cijferlijsten per cursus
+- CourseViewAllGrades: Alle cijfers inzien
+
+#### manage_courses_add
+
+- CourseAccessExamSetup: Instellen koppelingen externe systemen
+- CourseEditExternalIDs: Instellingen koppelingen met toetssystemen
+- CourseUpdateData: Update data knop in Canvas
