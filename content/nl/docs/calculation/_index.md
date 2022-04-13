@@ -2,7 +2,7 @@
 title: "Cijferberekening"
 linkTitle: "Cijferberekening"
 description: "Beschrijving van functionaliteit voor cijferberekening"
-date: 2021-03-21
+date: 2022-04-13
 weight: 5
 ---
 De handleiding van de cijferberekeningsfunctionaliteit is [op Canvas](https://canvas.uva.nl/courses/169/modules#module_103508) te vinden. Deze pagina beschrijft de werking van een aantal functionaliteiten.
@@ -13,7 +13,7 @@ Cijferberekingen zijn in de regel gebaseerd op deelcijfers uit Canvas. Hier kan 
 De volgende berekeningstypes kunnen gebruikt worden:
 - Gewogen gemiddelde: er dient per onderdeel een gewicht worden opgevoerd
 - Som: de subonderdelen worden opgeteld zonder weging
-- Laatste poging: het deelcijfer met de laatste datum telt
+- Laatste poging: het deelcijfer dat het laatste voorkomt in de ordening telt
 - Maximum: het maximum van de deelcijfers telt 
 
 Daarnaast kunnen per onderdeel een aantal opties ingesteld worden:
