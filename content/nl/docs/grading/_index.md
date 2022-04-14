@@ -2,7 +2,7 @@
 title: "Invoeren cijfers"
 linkTitle: "Invoeren cijfers"
 description: "Beschrijving cijferinvoerschermen voor docenten"
-date: 2021-11-12
+date: 2022-04-14
 weight: 2
 ---
 
@@ -77,7 +77,7 @@ Na het indienen van cijfers is het mogelijk om via de 'correctie indienen' knop 
 
 ### Individuele vakken
 
-Voor individuele vakken kunnen op dezelfde manier cijfers worden ingevoerd. Extra is dat bij elk in te leveren cijfer een datum, titel en begeleider ingevoerd moet worden. Bij een herkansing of correctie kunnen deze waarden weer worden aangepast. De tentamendatum kan alleen door een beheerder worden aangepast.
+Voor individuele vakken kunnen op dezelfde manier cijfers worden ingevoerd. Extra is dat bij elk in te leveren cijfer een datum, titel en begeleider ingevoerd moet worden (behalve bij een NAP of NAV). Bij een herkansing of correctie kunnen deze waarden weer worden aangepast. De tentamendatum kan alleen door een beheerder worden aangepast.
 
 Indien de student een inschrijving voor het vak heeft met een afwijkend aantal EC, dan wordt naast bovengenoemde velden ook dit aantal EC getoond. Het cijfer wordt dan ook voor dat aantal EC geboekt.
 
