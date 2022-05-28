@@ -5,7 +5,7 @@
     <description>Recent content in Documentatie on Cijferregistratieapplicatie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 May 2022 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="https://uva-fnwi.github.io/GradeTool/nl/docs/index.xml" rel="self" type="application/rss+xml" />
     
@@ -16,22 +16,26 @@
     
     
     <item>
-      <title>Docs: Release 2021-11-11</title>
-      <link>https://uva-fnwi.github.io/GradeTool/nl/docs/release/20211111/</link>
-      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      <title>Docs: Release 2022-05-30</title>
+      <link>https://uva-fnwi.github.io/GradeTool/nl/docs/release/20220530/</link>
+      <pubDate>Sat, 28 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://uva-fnwi.github.io/GradeTool/nl/docs/release/20211111/</guid>
+      <guid>https://uva-fnwi.github.io/GradeTool/nl/docs/release/20220530/</guid>
       <description>
         
         
         &lt;p&gt;Nieuwe functionaliteiten in deze release:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Voor individuele vakken waar een student op ingeschreven staat met een afwijkend aantal EC, wordt dit EC nu getoond in het cijferscherm bij uitklappen van het resultaat (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/111&#34;&gt;#94&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Op het scherm overzicht becijfering is er een nieuwe export beschikbaar gesteld, waarmee data op groepniveau geëexporteerd kan worden (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/109&#34;&gt;#109&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Voor deelcijfers worden (voor studenten en docenten) nu twee decimalen getoond wanneer relevant (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/106&#34;&gt;#106&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;De details van een individueel resultaat worden automatisch uitgeklapt wanneer er een cijfer wordt ingevoerd of het cijfer wordt geselecteerd (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/86&#34;&gt;#86&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Bij vakken waarbij er nog cijferlijsten openstaan om ondertekend te worden, wordt er bovenaan het cijferscherm een banner getoond om docenten daarop te wijzen (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/97&#34;&gt;#97&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Het is mogelijk voor beheerders of via het beheerscherm doorgeboekte cijfers te verwijderen uit SIS (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/57&#34;&gt;#57&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Het is nu mogelijk om de tentamendatum van cijferlijsten en individuele cijfers aan te passen nadat deze zijn doorgeboekt naar SIS (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/131&#34;&gt;#131&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;De sorteervolgorde van cijferkolommen is logischer en het is mogelijk om te filteren op cijfers die nog ingediend moeten worden (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/125&#34;&gt;#125&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;In het overzicht becijfering is het mogelijk om tentamendatums aan te passen en daarmee de standaardwaarde te overschrijven (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/131&#34;&gt;#131&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Een optie is toegevoegd om het boeken van cijfers voor specifieke studenten te blokkeren (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/98&#34;&gt;#98&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Het is nu ook bij vakken zonder partieel doorboeken mogelijk om voor een selectie van studenten de cijferberekening uit te voeren (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/127&#34;&gt;#127&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Het is niet meer mogelijk om herkansingscijfers in te voeren voor studenten die nog geen eindcijfer hebben (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/136&#34;&gt;#136&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Beheerders kunnen bij vakken een tweede herkansingskolom toevoegen (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/123&#34;&gt;#123&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Het verschil tussen wel en niet ingeleverde cijfers is verduidelijkt in het cijferscherm (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/128&#34;&gt;#128&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;De titel van de publiceerknop is verduidelijkt (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/107&#34;&gt;#107&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Beheerders hebben nu een optie om een volledige cijferlijst in 1 keer te verwijderen uit SIS (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/137&#34;&gt;#137&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -114,9 +118,31 @@
     </item>
     
     <item>
+      <title>Docs: Release 2021-11-11</title>
+      <link>https://uva-fnwi.github.io/GradeTool/nl/docs/release/20211111/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://uva-fnwi.github.io/GradeTool/nl/docs/release/20211111/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Nieuwe functionaliteiten in deze release:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Voor individuele vakken waar een student op ingeschreven staat met een afwijkend aantal EC, wordt dit EC nu getoond in het cijferscherm bij uitklappen van het resultaat (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/111&#34;&gt;#94&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Op het scherm overzicht becijfering is er een nieuwe export beschikbaar gesteld, waarmee data op groepniveau geëexporteerd kan worden (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/109&#34;&gt;#109&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Voor deelcijfers worden (voor studenten en docenten) nu twee decimalen getoond wanneer relevant (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/106&#34;&gt;#106&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;De details van een individueel resultaat worden automatisch uitgeklapt wanneer er een cijfer wordt ingevoerd of het cijfer wordt geselecteerd (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/86&#34;&gt;#86&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Bij vakken waarbij er nog cijferlijsten openstaan om ondertekend te worden, wordt er bovenaan het cijferscherm een banner getoond om docenten daarop te wijzen (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/97&#34;&gt;#97&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Het is mogelijk voor beheerders of via het beheerscherm doorgeboekte cijfers te verwijderen uit SIS (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/57&#34;&gt;#57&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Rollen</title>
       <link>https://uva-fnwi.github.io/GradeTool/nl/docs/admin/roles/</link>
-      <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 28 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://uva-fnwi.github.io/GradeTool/nl/docs/admin/roles/</guid>
       <description>
@@ -143,12 +169,15 @@
 &lt;li&gt;AccessManageReminders: Beheren herinneringsmails&lt;/li&gt;
 &lt;li&gt;AccessPendingGrades: Inzien openstaande cijferlijsten&lt;/li&gt;
 &lt;li&gt;CourseAccessExamSetup: Instellen koppelingen externe systemen&lt;/li&gt;
+&lt;li&gt;CourseEditGradeRestrictions: Cijferblokkades instellen&lt;/li&gt;
 &lt;li&gt;CourseUpdateData: Update data knop in Canvas&lt;/li&gt;
 &lt;li&gt;CourseViewAllGrades: Alle cijfers inzien&lt;/li&gt;
+&lt;li&gt;GradesAddSecondRetake: Tweede herkansing toevoegen&lt;/li&gt;
 &lt;li&gt;GradesApproveLateCorrections: Late correcties goedkeuren&lt;/li&gt;
 &lt;li&gt;GradesApproveOtherStudents: Goed/afkeuren toegevoegde studenten&lt;/li&gt;
 &lt;li&gt;GradesEditAcademicYear: Aanpassen academisch jaar ingeleverde cijferlijst&lt;/li&gt;
 &lt;li&gt;GradesEditDate: Aanpassen toetsdatum ingeleverde cijferlijst&lt;/li&gt;
+&lt;li&gt;GradesEditExamDate: Tentamendatum aanpassen van doorgeboekte cijfers&lt;/li&gt;
 &lt;li&gt;GradesFilterUnprocessed: Ingediende cijferlijsten filteren op status&lt;/li&gt;
 &lt;li&gt;GradesProcessSIS: Doorboeking naar SIS starten op beheerscherm&lt;/li&gt;
 &lt;li&gt;GradesSetHandled: Cijferlijsten afvinken in overzicht&lt;/li&gt;

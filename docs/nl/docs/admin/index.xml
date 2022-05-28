@@ -5,7 +5,7 @@
     <description>Recent content in Beheerschermen on Cijferregistratieapplicatie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 May 2022 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="https://uva-fnwi.github.io/GradeTool/nl/docs/admin/index.xml" rel="self" type="application/rss+xml" />
     
@@ -73,7 +73,7 @@
     <item>
       <title>Docs: Rollen</title>
       <link>https://uva-fnwi.github.io/GradeTool/nl/docs/admin/roles/</link>
-      <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 28 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://uva-fnwi.github.io/GradeTool/nl/docs/admin/roles/</guid>
       <description>
@@ -100,12 +100,15 @@
 &lt;li&gt;AccessManageReminders: Beheren herinneringsmails&lt;/li&gt;
 &lt;li&gt;AccessPendingGrades: Inzien openstaande cijferlijsten&lt;/li&gt;
 &lt;li&gt;CourseAccessExamSetup: Instellen koppelingen externe systemen&lt;/li&gt;
+&lt;li&gt;CourseEditGradeRestrictions: Cijferblokkades instellen&lt;/li&gt;
 &lt;li&gt;CourseUpdateData: Update data knop in Canvas&lt;/li&gt;
 &lt;li&gt;CourseViewAllGrades: Alle cijfers inzien&lt;/li&gt;
+&lt;li&gt;GradesAddSecondRetake: Tweede herkansing toevoegen&lt;/li&gt;
 &lt;li&gt;GradesApproveLateCorrections: Late correcties goedkeuren&lt;/li&gt;
 &lt;li&gt;GradesApproveOtherStudents: Goed/afkeuren toegevoegde studenten&lt;/li&gt;
 &lt;li&gt;GradesEditAcademicYear: Aanpassen academisch jaar ingeleverde cijferlijst&lt;/li&gt;
 &lt;li&gt;GradesEditDate: Aanpassen toetsdatum ingeleverde cijferlijst&lt;/li&gt;
+&lt;li&gt;GradesEditExamDate: Tentamendatum aanpassen van doorgeboekte cijfers&lt;/li&gt;
 &lt;li&gt;GradesFilterUnprocessed: Ingediende cijferlijsten filteren op status&lt;/li&gt;
 &lt;li&gt;GradesProcessSIS: Doorboeking naar SIS starten op beheerscherm&lt;/li&gt;
 &lt;li&gt;GradesSetHandled: Cijferlijsten afvinken in overzicht&lt;/li&gt;

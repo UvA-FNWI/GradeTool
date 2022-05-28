@@ -2,7 +2,7 @@
 title: "Rollen"
 linkTitle: "Rollen"
 description: "Gekoppelde acties per gebruikersrol"
-date: 2022-01-27
+date: 2022-05-28
 weight: 0
 ---
 
@@ -27,12 +27,15 @@ weight: 0
 - AccessManageReminders: Beheren herinneringsmails
 - AccessPendingGrades: Inzien openstaande cijferlijsten
 - CourseAccessExamSetup: Instellen koppelingen externe systemen
+- CourseEditGradeRestrictions: Cijferblokkades instellen
 - CourseUpdateData: Update data knop in Canvas
 - CourseViewAllGrades: Alle cijfers inzien
+- GradesAddSecondRetake: Tweede herkansing toevoegen
 - GradesApproveLateCorrections: Late correcties goedkeuren
 - GradesApproveOtherStudents: Goed/afkeuren toegevoegde studenten
 - GradesEditAcademicYear: Aanpassen academisch jaar ingeleverde cijferlijst
 - GradesEditDate: Aanpassen toetsdatum ingeleverde cijferlijst
+- GradesEditExamDate: Tentamendatum aanpassen van doorgeboekte cijfers
 - GradesFilterUnprocessed: Ingediende cijferlijsten filteren op status
 - GradesProcessSIS: Doorboeking naar SIS starten op beheerscherm
 - GradesSetHandled: Cijferlijsten afvinken in overzicht

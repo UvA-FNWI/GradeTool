@@ -2,7 +2,7 @@
 title: "Randvoorwaarden"
 linkTitle: "Randvoorwaarden"
 description: "Wat moet en kan er ingesteld worden om de applicatie te kunnen gebruiken?"
-date: 2021-09-06
+date: 2022-05-28
 weight: 1
 ---
 
@@ -38,6 +38,8 @@ De toetsdatum wordt als volgt bepaalt (zie ook [de flowchart](/flowchart_toetsda
 
 De toetsdatum is niet aanpasbaar door de docent, maar indien de toetsdatum in de toekomst ligt bij het indienen óf de toetsdatum van een herkansing voor de toetsdatum van de eerste poging ligt, dan wordt de datum van doorboeken gebruikt. De data uit SIS wordt 1 keer per dag bijgewerkt (en kan met de "[update data](#recente-wijzigingen-in-sis)" knop worden bespoedigd), informatie uit het rooster komt in real-time binnen.
 
+In het scherm overzicht becijfering is het mogelijk om de tentamendatum aan te passen en daarmee de bepaalde waarde te overschrijven.
+
 ### Doorwerking naar SIS
 Bij doorboeken worden de cijfers direct doorgezet naar SIS, in een proces dat op de achtergrond wordt gestart na het ondertekenen. Het proces biedt de cijfers aan SIS aan als inschrijvingsaanvragen, in batches van maximaal 100 cijfers. Hierbij wordt ook het UvAnetID van de examinator meegestuurd. De cijfers worden altijd op een T-studiedeel geboekt, tenzij het een individueel vak betreft. Als er geen T-studiedeel bestaat voor een niet-individueel vak, dan kunnen er momenteel geen cijfers worden geboekt. 
 
@@ -58,6 +60,12 @@ Per faculteit (waarbij FMG telt als 4) kan ingesteld worden:
 De cijferlijst toont standaard alle studenten die op de Y-activiteit of op een onderliggende activiteit in dezelfde sessie ingeschreven staan. Bij het boeken van een vrijstelling voor een student die niet voor het vak staat ingeschreven, is het dus niet handig om een bestaande activiteit te hergebruiken, want dan verschijnt de student in de cijferlijst. Boek daarom vrijstellingen in een andere sessie dan waar het vak zelf loopt (bijv. op een Y-activiteit).
 
 Wanneer een student die een vrijstelling heeft gekregen toch voor het vak ingeschreven staat, dan levert dat geen problemen op indien de docent een NAV of NAP geeft. Het cijfer wordt dan geblokkeerd bij het doorboeken.
+
+### Cijferblokkades
+Via de cijferblokkade-optie in het admin settings dialoogje in de cijferlijst is het mogelijk om specifieke studenten uit te sluiten voor het vak. Docenten kunnen dan geen cijfers invoeren voor deze studenten.
+
+### Tweede herkansing
+Beheerders kunnen voor een vak een tweede herkansing toevoegen, nadat er cijfers voor de eerste herkansings zijn ingeleverd. Deze tweede herkansing verschijnt als extra kolom in het cijferscherm en kan door de docent ingevuld worden. De tentamendatum wordt niet opgehaald maar kan door een beheerder ingesteld worden.
 
 ### Bewaartermijnen
 De tool bewaart alle ingeleverde cijfers minimaal 7 jaar en de volledig historie is op ieder moment terug te kijken. 

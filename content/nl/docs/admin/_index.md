@@ -2,7 +2,7 @@
 title: "Beheerschermen"
 linkTitle: "Beheerschermen"
 description: "Overzicht van de werking van de beheersschermen voor onderwijsadministraties"
-date: 2021-11-12
+date: 2022-05-28
 weight: 4
 ---
 
@@ -79,6 +79,8 @@ Dit scherm toont alle relevante vakken voor een faculteit, met de huidige status
 
 De lijst kan naar Excel worden geëxporteerd via de Excel-knop rechtsboven. Daarnaast geeft deze knop ook de mogelijkheid om een export te genereren van de gegevens van alle individuele groepen die bij de getoonde vakken horen.
 
+In dit scherm is het ook mogelijk om tentamendatums aan te passen. De hier opgegeven tentamendatum overschrijft de geïmporteerde waarde. 
+
 ### Informatie per vak
 Door naar een vak door te klikken of via de zoekfunctie rechtsboven een vak op te zoeken op naam of studiegidsnummer en dan naar ‘Cijfers inleveren’ te gaan, kom je op de overzichtspagina per vak. Hier zie je alle ingeleverde lijsten met status: 
 
@@ -87,7 +89,10 @@ Door naar een vak door te klikken of via de zoekfunctie rechtsboven een vak op t
 Daarnaast kun je via de optie ‘Alle cijfers tonen’ een overzicht inzien van alle ingeleverde cijfers voor dit vak in het gekozen jaar.
 
 ### Cijfers verwijderen
-Een (facultair) beheerder kan cijfers verwijderen via het moersleutel-icoontje in een ingeleverde cijferlijst. Bij verwijderen blijft het cijfer staan in de beheerschermen met status "Rejected" (rood kruis) en wordt het uit cijferscherm in Canvas en SIS verwijderd. In SIS is zichtbaar wie heeft verwijderd. Er kan opnieuw een cijfer worden ingevoerd door de docent.
+Een (facultair) beheerder kan individuele cijfers verwijderen via het moersleutel-icoontje in een ingeleverde cijferlijst, of de gehele lijst via de verwijderlink rechtsboven in het scherm. Bij verwijderen blijft het cijfer staan in de beheerschermen met status "Rejected" (rood kruis) en wordt het uit cijferscherm in Canvas en SIS verwijderd. In SIS is zichtbaar wie heeft verwijderd. Er kan opnieuw een cijfer worden ingevoerd door de docent.
+
+### Tentamendatum achteraf aanpassen
+Het is mogelijk om de tentamendatum aan te passen van cijfers die al naar SIS zijn doorgeboekt. Dit gaat via het moersleutel-dialoogje voor een individueel cijfer, of met de edit-link bij de tentamendatum voor de hele lijst. De wijziging wordt direct naar SIS doorgezet.
 
 ### Cijferlijst leegmaken
 In het cijferscherm zelf hebben beheerders een optie 'cijferlijt leegmaken' die alle nog niet ingeleverde cijfers weggooit in een gekozen kolom, bijvoorbeeld voor als er een foutieve import gedaan is. 

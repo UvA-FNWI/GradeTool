@@ -135,10 +135,12 @@
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-nldocsrelease-li">
   <a href="https://uva-fnwi.github.io/GradeTool/nl/docs/release/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-nldocsrelease"><span class="">Release notes</span></a>
   <ul class="ul-2 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-nldocsrelease20211111-li">
-  <a href="https://uva-fnwi.github.io/GradeTool/nl/docs/release/20211111/" title="Release 2021-11-11" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-nldocsrelease20211111"><span class="">2021-11-11</span></a>
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-nldocsrelease20220530-li">
+  <a href="https://uva-fnwi.github.io/GradeTool/nl/docs/release/20220530/" title="Release 2022-05-30" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-nldocsrelease20220530"><span class="">2022-05-30</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-nldocsrelease20220217-li">
   <a href="https://uva-fnwi.github.io/GradeTool/nl/docs/release/20220217/" title="Release 2022-02-17" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-nldocsrelease20220217"><span class="">2022-02-17</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-nldocsrelease20211111-li">
+  <a href="https://uva-fnwi.github.io/GradeTool/nl/docs/release/20211111/" title="Release 2021-11-11" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-nldocsrelease20211111"><span class="">2021-11-11</span></a>
 </li>
   </ul>
 </li>
@@ -171,6 +173,8 @@
         <li><a href="#partieel-doorboeken">Partieel doorboeken</a></li>
         <li><a href="#configuratieopties-per-faculteit">Configuratieopties per faculteit</a></li>
         <li><a href="#vrijstellingen">Vrijstellingen</a></li>
+        <li><a href="#cijferblokkades">Cijferblokkades</a></li>
+        <li><a href="#tweede-herkansing">Tweede herkansing</a></li>
         <li><a href="#bewaartermijnen">Bewaartermijnen</a></li>
         <li><a href="#hulp-bij-problemen">Hulp bij problemen</a></li>
       </ul>
@@ -260,6 +264,7 @@
 <li>Indien deze niet bestaat, dan wordt de eerste (eerste kans) of laatste (tweede kans) dag van de laatste week van de periode (conform sessie op de studieactiviteit voor aanmeldingen) gebruikt (waarbij de gekozen toetsdatum nooit op de laatste dag van de maand valt).</li>
 </ol>
 <p>De toetsdatum is niet aanpasbaar door de docent, maar indien de toetsdatum in de toekomst ligt bij het indienen óf de toetsdatum van een herkansing voor de toetsdatum van de eerste poging ligt, dan wordt de datum van doorboeken gebruikt. De data uit SIS wordt 1 keer per dag bijgewerkt (en kan met de &ldquo;<a href="#recente-wijzigingen-in-sis">update data</a>&rdquo; knop worden bespoedigd), informatie uit het rooster komt in real-time binnen.</p>
+<p>In het scherm overzicht becijfering is het mogelijk om de tentamendatum aan te passen en daarmee de bepaalde waarde te overschrijven.</p>
 <h3 id="doorwerking-naar-sis">Doorwerking naar SIS</h3>
 <p>Bij doorboeken worden de cijfers direct doorgezet naar SIS, in een proces dat op de achtergrond wordt gestart na het ondertekenen. Het proces biedt de cijfers aan SIS aan als inschrijvingsaanvragen, in batches van maximaal 100 cijfers. Hierbij wordt ook het UvAnetID van de examinator meegestuurd. De cijfers worden altijd op een T-studiedeel geboekt, tenzij het een individueel vak betreft. Als er geen T-studiedeel bestaat voor een niet-individueel vak, dan kunnen er momenteel geen cijfers worden geboekt.</p>
 <p>De tool zoekt eerst (via een QAS-query) een bestaande T-activiteit (standaard of herkansing) om de cijfers op te boeken, op basis van de sessie van het vak en de eventueel geselecteerd werkgroep. Indien deze niet bestaat, dan maakt de tool de activiteit aan via de component interface van SIS met een zo specifiek mogelijke sessie (bijv. T21 i.p.v. T2). In beide gevallen hoeven er geen studenten in SIS ingeschreven te worden; de tool doet dit bij het boeken van de cijfers. Indien een student al ingeschreven staat, wordt de bestaande inschrijving gebruikt. Zo niet, dan wordt de student ingeschreven met een actieve loopbaan die overeenkomt met het niveau van de cursus, of met de eerste actieve loopbaan als deze niet bestaat.</p>
@@ -276,6 +281,10 @@
 <h3 id="vrijstellingen">Vrijstellingen</h3>
 <p>De cijferlijst toont standaard alle studenten die op de Y-activiteit of op een onderliggende activiteit in dezelfde sessie ingeschreven staan. Bij het boeken van een vrijstelling voor een student die niet voor het vak staat ingeschreven, is het dus niet handig om een bestaande activiteit te hergebruiken, want dan verschijnt de student in de cijferlijst. Boek daarom vrijstellingen in een andere sessie dan waar het vak zelf loopt (bijv. op een Y-activiteit).</p>
 <p>Wanneer een student die een vrijstelling heeft gekregen toch voor het vak ingeschreven staat, dan levert dat geen problemen op indien de docent een NAV of NAP geeft. Het cijfer wordt dan geblokkeerd bij het doorboeken.</p>
+<h3 id="cijferblokkades">Cijferblokkades</h3>
+<p>Via de cijferblokkade-optie in het admin settings dialoogje in de cijferlijst is het mogelijk om specifieke studenten uit te sluiten voor het vak. Docenten kunnen dan geen cijfers invoeren voor deze studenten.</p>
+<h3 id="tweede-herkansing">Tweede herkansing</h3>
+<p>Beheerders kunnen voor een vak een tweede herkansing toevoegen, nadat er cijfers voor de eerste herkansings zijn ingeleverd. Deze tweede herkansing verschijnt als extra kolom in het cijferscherm en kan door de docent ingevuld worden. De tentamendatum wordt niet opgehaald maar kan door een beheerder ingesteld worden.</p>
 <h3 id="bewaartermijnen">Bewaartermijnen</h3>
 <p>De tool bewaart alle ingeleverde cijfers minimaal 7 jaar en de volledig historie is op ieder moment terug te kijken.</p>
 <h3 id="hulp-bij-problemen">Hulp bij problemen</h3>
