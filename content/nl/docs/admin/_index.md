@@ -1,7 +1,7 @@
 ---
 title: "Beheerschermen"
 linkTitle: "Beheerschermen"
-description: "Overzicht van de werking van de beheersschermen voor onderwijsadministraties"
+description: "Overzicht van de werking van de beheerschermen voor onderwijsadministraties"
 date: 2022-05-28
 weight: 4
 ---
@@ -95,4 +95,4 @@ Een (facultair) beheerder kan individuele cijfers verwijderen via het moersleute
 Het is mogelijk om de tentamendatum aan te passen van cijfers die al naar SIS zijn doorgeboekt. Dit gaat via het moersleutel-dialoogje voor een individueel cijfer, of met de edit-link bij de tentamendatum voor de hele lijst. De wijziging wordt direct naar SIS doorgezet.
 
 ### Cijferlijst leegmaken
-In het cijferscherm zelf hebben beheerders een optie 'cijferlijt leegmaken' die alle nog niet ingeleverde cijfers weggooit in een gekozen kolom, bijvoorbeeld voor als er een foutieve import gedaan is. 
+In het cijferscherm zelf hebben beheerders een optie 'cijferlijst leegmaken' die alle nog niet ingeleverde cijfers weggooit in een gekozen kolom, bijvoorbeeld voor als er een foutieve import gedaan is. 
