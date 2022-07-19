@@ -25,10 +25,10 @@ Hetzelfde geldt voor wijzigingen in het vak die op de dag zelf zijn gedaan (bijv
 ![Gegevens bijwerken](/update_data.nl.png)
 
 ### Getoonde studenten
-Alle studenten die voor het vak staan ingeschreven op een studieactiviteit op de werkvorm worden getoond. Er wordt niet gekeken naar inschrijven op studieactiviteiten in een T- of H-sessie. Studenten die waarvan de vakaanmelding wordt gestopt, verdwijnen van de lijst indien er geen eindcijfer is opgevoerd (anders blijven ze staan als handmatig toegevoegde studenten). Er wordt niet gekeken naar de status van de inschrijving de opleiding.
+Alle studenten die voor het vak staan ingeschreven op een studieactiviteit op de werkvorm worden getoond. Er wordt niet gekeken naar inschrijven op studieactiviteiten in een T- of H-sessie. Studenten die waarvan de vakaanmelding wordt gestopt, verdwijnen van de lijst indien er geen eindcijfer is opgevoerd (anders blijven ze staan als handmatig toegevoegde studenten). Er wordt niet gekeken naar de status van de inschrijving voor de opleiding.
 
 ### Beoordelingsvoet
-De mogelijke beoordelingen worden bepaald door de geldige rij met waarden van de beoordelingsvoet in SIS. Cijfers tussen de 5 en 6 kunnen niet gegeven worden indien het vak een effective date voor 1 september 2018 heeft in SIS. Voor vakken met de NON-beoordelingsvoet is het niet mogelijk om cijfers in te leveren.
+De mogelijke beoordelingen worden bepaald door de geldige rij met waarden van de beoordelingsvoet in SIS (bijv. HLF = halve cijfers, AN = AVV/NAV, DC1 = decimaal 1 cijfer). Cijfers tussen de 5 en 6 kunnen niet gegeven worden indien het vak een effective date voor 1 september 2018 heeft in SIS. Voor vakken met de NON-beoordelingsvoet is het niet mogelijk om cijfers in te leveren.
 
 ### Tentamendatum 
 De toetsdatum wordt als volgt bepaalt (zie ook [de flowchart](/flowchart_toetsdatum.pdf)):
