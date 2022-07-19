@@ -73,7 +73,7 @@ Als het om een of andere reden niet meteen lukt om de tweede verificatiestap met
 
 ### Correcties
 
-Na het indienen van cijfers is het mogelijk om via de 'correctie indienen' knop een correctie toe te voegen. De gecorrigeerde cijfers kunnen dan een in een aparte kolom worden opgevoerd, en ook eventueel weer worden berekend via de cijferberekening (na corrigeren van de deelcijfers). Correcties worden op dezelfde manier ondertekjend en doorgezet, waarbij er bij het indienen een reden opgegeven dient te worden. Als de correctie binnen 40 dagen na het oorspronkelijke cijfer wordt ingediend, dan wordt deze vanzelf doorgezet. Na 40 dagen moet deze door de onderwijsadministratie goedgekeurd worden.
+Na het indienen van cijfers is het mogelijk om via de 'correctie indienen' knop een correctie toe te voegen. De gecorrigeerde cijfers kunnen dan een in een aparte kolom worden opgevoerd, en ook eventueel weer worden berekend via de cijferberekening (na corrigeren van de deelcijfers). Correcties worden op dezelfde manier ondertekend en doorgezet, waarbij er bij het indienen een reden opgegeven dient te worden. Als de correctie binnen 40 dagen na het oorspronkelijke cijfer wordt ingediend, dan wordt deze vanzelf doorgezet. Na 40 dagen moet deze door de onderwijsadministratie goedgekeurd worden.
 
 ### Individuele vakken
 
