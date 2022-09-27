@@ -69,7 +69,7 @@
 &lt;h3 id=&#34;planning-en-selectie&#34;&gt;Planning en selectie&lt;/h3&gt;
 &lt;p&gt;Elke werkdag om 9 uur worden de mails uitgestuurd voor vakken waarbij er nog een cijfer openstaat en de betreffende mail niet eerder is gestuurd. Daarbij geldt:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Individuele vakken en vakken met 0 EC worden niet meegenomen in de selectie&lt;/li&gt;
+&lt;li&gt;Individuele vakken (INOE, INdividuele OnderwijsEenheid) en vakken met 0 EC worden niet meegenomen in de selectie&lt;/li&gt;
 &lt;li&gt;De mail wordt verstuurd als de ijkdatum (tentamendatum plus het ingestelde aantal dagen) in het verleden ligt, maar niet meer dan 15 dagen, om te verhinderen dat er achterhaalde mails verstuurd worden bij het instellen van een nieuwe herinnering&lt;/li&gt;
 &lt;li&gt;De mail gaat naar alle examinatoren die bij het vak betrokken zijn, ook al hebben zij misschien in hun eigen groep geen cijfers meer openstaan&lt;/li&gt;
 &lt;/ul&gt;

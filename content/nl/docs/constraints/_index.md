@@ -62,10 +62,10 @@ De cijferlijst toont standaard alle studenten die op de Y-activiteit of op een o
 Wanneer een student die een vrijstelling heeft gekregen toch voor het vak ingeschreven staat, dan levert dat geen problemen op indien de docent een NAV of NAP geeft. Het cijfer wordt dan geblokkeerd bij het doorboeken.
 
 ### Cijferblokkades
-Via de cijferblokkade-optie in het admin settings dialoogje in de cijferlijst is het mogelijk om specifieke studenten uit te sluiten voor het vak. Docenten kunnen dan geen cijfers invoeren voor deze studenten.
+Via de cijferblokkade-optie in het admin settings dialoogje in het cijferscherm is het mogelijk om specifieke studenten uit te sluiten voor het vak. Docenten kunnen dan geen cijfers invoeren voor deze studenten: de student wordt wel getoond op het scherm maar invoer is niet mogelijk. De cijferlijst kan zonder deze studenten worden ingeleverd, ook wanneer partieel doorboeken uit staat.
 
 ### Tweede herkansing
-Beheerders kunnen voor een vak een tweede herkansing toevoegen, nadat er cijfers voor de eerste herkansings zijn ingeleverd. Deze tweede herkansing verschijnt als extra kolom in het cijferscherm en kan door de docent ingevuld worden. De tentamendatum wordt niet opgehaald maar kan door een beheerder ingesteld worden.
+Beheerders kunnen via een knop in het admin settings dialoogje in het cijferscherm voor een vak een tweede herkansing toevoegen, nadat er cijfers voor de eerste herkansing zijn ingeleverd. Deze tweede herkansing verschijnt als extra kolom in het cijferscherm en kan door de docent ingevuld worden. De tentamendatum wordt niet opgehaald maar kan door een beheerder ingesteld worden. Cijfers worden verder verwerkt op dezelfde manier als een eerste herkansing.
 
 ### Bewaartermijnen
 De tool bewaart alle ingeleverde cijfers minimaal 7 jaar en de volledig historie is op ieder moment terug te kijken. 
