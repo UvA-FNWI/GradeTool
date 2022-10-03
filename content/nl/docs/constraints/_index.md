@@ -33,7 +33,7 @@ De mogelijke beoordelingen worden bepaald door de geldige rij met waarden van de
 ### Tentamendatum 
 De toetsdatum wordt als volgt bepaalt (zie ook [de flowchart](/flowchart_toetsdatum.pdf)):
 1.	Indien er een T-studieactiviteit bestaat (T of S sessie voor eerste kans, H sessie voor tweede kans) en hier een einddatum is ingericht, dan wordt deze gebruikt (`CLASS_MTG_PAT.END_DT`). Bij meerdere studieactiviteiten wordt de laatste einddatum gebruikt. NB: het scherm in SIS toont hier altijd een datum, maar dat betekent niet dat er ook een datum is opgeslagen.
-2.	Zo niet, dan wordt de laatste datum van geroosterde tentamenactiviteiten (eerste kans, types Tent en DigiToets) of hertentamenactiviteiten (tweede kans, types HerT en HertDigiToets) in Syllabus+ gebruikt.
+2.	Zo niet, dan wordt de laatste datum van geroosterde tentamenactiviteiten (eerste kans, types Tent en DigiToets) of hertentamenactiviteiten (tweede kans, types HerT en HertDigiToets) in TermTime gebruikt.
 3.	Indien deze niet bestaat, dan wordt de eerste (eerste kans) of laatste (tweede kans) dag van de laatste week van de periode (conform sessie op de studieactiviteit voor aanmeldingen) gebruikt (waarbij de gekozen toetsdatum nooit op de laatste dag van de maand valt). 
 
 De toetsdatum is niet aanpasbaar door de docent, maar indien de toetsdatum in de toekomst ligt bij het indienen óf de toetsdatum van een herkansing voor de toetsdatum van de eerste poging ligt, dan wordt de datum van doorboeken gebruikt. De data uit SIS wordt 1 keer per dag bijgewerkt (en kan met de "[update data](#recente-wijzigingen-in-sis)" knop worden bespoedigd), informatie uit het rooster komt in real-time binnen.
