@@ -16,6 +16,27 @@
     
     
     <item>
+      <title>Docs: Release 2022-11-14</title>
+      <link>https://uva-fnwi.github.io/GradeTool/nl/docs/release/20221114/</link>
+      <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://uva-fnwi.github.io/GradeTool/nl/docs/release/20221114/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Nieuwe functionaliteiten in deze release:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;De vakinstantieswitcher op de vakpagina in DataNose geeft nu de periode weer (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/141&#34;&gt;#141&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Het is mogelijk om nagekomen cijfers alsnog in te voeren bij oude vakken na de becijferingsdeadline, met een tentamendatum in het nieuwe jaar (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/139&#34;&gt;#139&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Bij een correctie is het nu ook mogelijk om een oud cijfer te verwijderen (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/113&#34;&gt;#113&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Het is niet meer mogelijk om correcties in te voeren voor cijfers die nog niet zijn ondertekend (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/140&#34;&gt;#140&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Het is niet meer mogelijk om cijfers in te voeren voor de start van een cursus (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/122&#34;&gt;#122&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Release 2022-05-30</title>
       <link>https://uva-fnwi.github.io/GradeTool/nl/docs/release/20220530/</link>
       <pubDate>Sat, 28 May 2022 00:00:00 +0000</pubDate>

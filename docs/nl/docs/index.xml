@@ -5,7 +5,7 @@
     <description>Recent content in Documentatie on Cijferregistratieapplicatie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 May 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Nov 2022 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="https://uva-fnwi.github.io/GradeTool/nl/docs/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,6 +14,27 @@
         
       
     
+    
+    <item>
+      <title>Docs: Release 2022-11-14</title>
+      <link>https://uva-fnwi.github.io/GradeTool/nl/docs/release/20221114/</link>
+      <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://uva-fnwi.github.io/GradeTool/nl/docs/release/20221114/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Nieuwe functionaliteiten in deze release:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;De vakinstantieswitcher op de vakpagina in DataNose geeft nu de periode weer (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/141&#34;&gt;#141&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Het is mogelijk om nagekomen cijfers alsnog in te voeren bij oude vakken na de becijferingsdeadline, met een tentamendatum in het nieuwe jaar (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/139&#34;&gt;#139&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Bij een correctie is het nu ook mogelijk om een oud cijfer te verwijderen (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/113&#34;&gt;#113&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Het is niet meer mogelijk om correcties in te voeren voor cijfers die nog niet zijn ondertekend (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/140&#34;&gt;#140&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Het is niet meer mogelijk om cijfers in te voeren voor de start van een cursus (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/122&#34;&gt;#122&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
     
     <item>
       <title>Docs: Release 2022-05-30</title>
@@ -74,6 +95,9 @@
 &lt;li&gt;De mail gaat naar alle examinatoren die bij het vak betrokken zijn, ook al hebben zij misschien in hun eigen groep geen cijfers meer openstaan&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;De testknop op het configuratiescherm kan gebruikt worden om te kijken of er in de volgende run een mail verstuurd gaat worden voor een zeker vak.&lt;/p&gt;
+&lt;h2 id=&#34;late-cijfers&#34;&gt;Late cijfers&lt;/h2&gt;
+&lt;p&gt;De tool ondersteunt een aparte flow waarmee cijfers vastgelegd kunnen worden (ver) na einde van een cursus, met een tentamendatum in het huidige jaar. Hierbij moet de cijferlijst klaargezet worden door een beheerder via &lt;a href=&#34;https://datanose.nl/#lategrading&#34;&gt;het scherm &amp;lsquo;Verlate cijfers&amp;rsquo;&lt;/a&gt;. Hier kiest een beheerder een cursusinstantie, een tentamendatum, een examinator en een vaste set studenten. De cursusinstantie kan in het verleden liggen en hoeft niet overeen te komen met de tentamendatum.&lt;/p&gt;
+&lt;p&gt;De examinator kan vervolgens via de Canvas-pagina die correspondeert met de gekozen cursusinstantie de cijfers inleveren. Hij of zij krijgt de set studenten te zien die is geselecteerd en kan geen andere cijfers geven (voor een vak dat afgesloten is). De cijfers worden als normaal ondertekend en doorgezet, waarna ze in SIS geboekt worden op de periode die correspondeert met de tentamendatum.&lt;/p&gt;
 
       </description>
     </item>
@@ -142,7 +166,7 @@
     <item>
       <title>Docs: Rollen</title>
       <link>https://uva-fnwi.github.io/GradeTool/nl/docs/admin/roles/</link>
-      <pubDate>Sat, 28 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://uva-fnwi.github.io/GradeTool/nl/docs/admin/roles/</guid>
       <description>
@@ -155,6 +179,7 @@
 &lt;li&gt;AccessCourseGradeLists: Inzien cijferlijsten per cursus&lt;/li&gt;
 &lt;li&gt;AccessGradeDates: Inzien overzicht cursussen&lt;/li&gt;
 &lt;li&gt;AccessGradeOverview: Inzien overzicht cijferlijsten&lt;/li&gt;
+&lt;li&gt;AccessLateGrading: Configuratie nagekomen cijfers inzien&lt;/li&gt;
 &lt;li&gt;AccessPendingGrades: Inzien openstaande cijferlijsten&lt;/li&gt;
 &lt;li&gt;CourseUpdateData: Update data knop in Canvas&lt;/li&gt;
 &lt;li&gt;GradesFilterUnprocessed: Ingediende cijferlijsten filteren op status&lt;/li&gt;
@@ -166,6 +191,7 @@
 &lt;li&gt;AccessCourseGradeLists: Inzien cijferlijsten per cursus&lt;/li&gt;
 &lt;li&gt;AccessGradeDates: Inzien overzicht cursussen&lt;/li&gt;
 &lt;li&gt;AccessGradeOverview: Inzien overzicht cijferlijsten&lt;/li&gt;
+&lt;li&gt;AccessLateGrading: Configuratie nagekomen cijfers inzien&lt;/li&gt;
 &lt;li&gt;AccessManageReminders: Beheren herinneringsmails&lt;/li&gt;
 &lt;li&gt;AccessPendingGrades: Inzien openstaande cijferlijsten&lt;/li&gt;
 &lt;li&gt;CourseAccessExamSetup: Instellen koppelingen externe systemen&lt;/li&gt;
@@ -181,6 +207,7 @@
 &lt;li&gt;GradesFilterUnprocessed: Ingediende cijferlijsten filteren op status&lt;/li&gt;
 &lt;li&gt;GradesProcessSIS: Doorboeking naar SIS starten op beheerscherm&lt;/li&gt;
 &lt;li&gt;GradesSetHandled: Cijferlijsten afvinken in overzicht&lt;/li&gt;
+&lt;li&gt;ManageLateGrading: Nagekomen cijfers configureren&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;cijferinleveraar&#34;&gt;Cijferinleveraar&lt;/h3&gt;
 &lt;ul&gt;
@@ -190,6 +217,7 @@
 &lt;h3 id=&#34;cijferverwijderaar&#34;&gt;Cijferverwijderaar&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;GradesDelete: Cijfers verwijderen&lt;/li&gt;
+&lt;li&gt;GradesRemoveLists: Cijferlijsten verwijderen&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;facultair-beheerder&#34;&gt;Facultair beheerder&lt;/h3&gt;
 &lt;ul&gt;

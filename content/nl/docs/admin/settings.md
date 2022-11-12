@@ -33,3 +33,8 @@ Elke werkdag om 9 uur worden de mails uitgestuurd voor vakken waarbij er nog een
 - De mail gaat naar alle examinatoren die bij het vak betrokken zijn, ook al hebben zij misschien in hun eigen groep geen cijfers meer openstaan
 
 De testknop op het configuratiescherm kan gebruikt worden om te kijken of er in de volgende run een mail verstuurd gaat worden voor een zeker vak.
+
+## Late cijfers
+De tool ondersteunt een aparte flow waarmee cijfers vastgelegd kunnen worden (ver) na einde van een cursus, met een tentamendatum in het huidige jaar. Hierbij moet de cijferlijst klaargezet worden door een beheerder via [het scherm 'Verlate cijfers'](https://datanose.nl/#lategrading). Hier kiest een beheerder een cursusinstantie, een tentamendatum, een examinator en een vaste set studenten. De cursusinstantie kan in het verleden liggen en hoeft niet overeen te komen met de tentamendatum. 
+
+De examinator kan vervolgens via de Canvas-pagina die correspondeert met de gekozen cursusinstantie de cijfers inleveren. Hij of zij krijgt de set studenten te zien die is geselecteerd en kan geen andere cijfers geven (voor een vak dat afgesloten is). De cijfers worden als normaal ondertekend en doorgezet, waarna ze in SIS geboekt worden op de periode die correspondeert met de tentamendatum. 

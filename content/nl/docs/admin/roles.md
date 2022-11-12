@@ -2,7 +2,7 @@
 title: "Rollen"
 linkTitle: "Rollen"
 description: "Gekoppelde acties per gebruikersrol"
-date: 2022-05-28
+date: 2022-11-12
 weight: 0
 ---
 
@@ -13,6 +13,7 @@ weight: 0
 - AccessCourseGradeLists: Inzien cijferlijsten per cursus
 - AccessGradeDates: Inzien overzicht cursussen
 - AccessGradeOverview: Inzien overzicht cijferlijsten
+- AccessLateGrading: Configuratie nagekomen cijfers inzien
 - AccessPendingGrades: Inzien openstaande cijferlijsten
 - CourseUpdateData: Update data knop in Canvas
 - GradesFilterUnprocessed: Ingediende cijferlijsten filteren op status
@@ -24,6 +25,7 @@ weight: 0
 - AccessCourseGradeLists: Inzien cijferlijsten per cursus
 - AccessGradeDates: Inzien overzicht cursussen
 - AccessGradeOverview: Inzien overzicht cijferlijsten
+- AccessLateGrading: Configuratie nagekomen cijfers inzien
 - AccessManageReminders: Beheren herinneringsmails
 - AccessPendingGrades: Inzien openstaande cijferlijsten
 - CourseAccessExamSetup: Instellen koppelingen externe systemen
@@ -39,6 +41,7 @@ weight: 0
 - GradesFilterUnprocessed: Ingediende cijferlijsten filteren op status
 - GradesProcessSIS: Doorboeking naar SIS starten op beheerscherm
 - GradesSetHandled: Cijferlijsten afvinken in overzicht
+- ManageLateGrading: Nagekomen cijfers configureren
 
 ### Cijferinleveraar
 
@@ -48,6 +51,7 @@ weight: 0
 ### Cijferverwijderaar
 
 - GradesDelete: Cijfers verwijderen
+- GradesRemoveLists: Cijferlijsten verwijderen
 
 ### Facultair beheerder
 
