@@ -83,6 +83,8 @@ Voor individuele vakken kunnen op dezelfde manier cijfers worden ingevoerd. Extr
 
 Indien de student een inschrijving voor het vak heeft met een afwijkend aantal EC, dan wordt naast bovengenoemde velden ook dit aantal EC getoond. Het cijfer wordt dan ook voor dat aantal EC geboekt.
 
+Bij vakken waarbij de scriptieworkflow in Canvas wordt gebruikt, worden titel en tentamendatum automatisch ingevuld (de laatste op basis van de inleverdatum in Canvas) en kunnen niet worden gewijzigd. Voor vakken waarbij de projectworkflow in DataNose wordt gebruikt, gaat het inleveren van cijfers ook via de workflow en wordt het cijferscherm niet gebruikt.
+
 ### Statistieken
 
 Na inleveren van cijfers zijn er statistieken beschikbaar via de 'Cijferstatistieken' link in het cijferscherm. Deze geven een overzicht van de ingeleverde cijfers, voor zowel de eerste kans als de herkansing. De volgende waarden worden getoond:
