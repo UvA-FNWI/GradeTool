@@ -4,7 +4,7 @@
     <link>https://uva-fnwi.github.io/GradeTool/nl/docs/release/</link>
     <description>Recent content in Release notes on Cijferregistratieapplicatie</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>nl</language>
     <lastBuildDate>Thu, 11 Nov 2021 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="https://uva-fnwi.github.io/GradeTool/nl/docs/release/index.xml" rel="self" type="application/rss+xml" />
@@ -14,6 +14,26 @@
         
       
     
+    
+    <item>
+      <title>Docs: Release 2023-05-30</title>
+      <link>https://uva-fnwi.github.io/GradeTool/nl/docs/release/20230530/</link>
+      <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://uva-fnwi.github.io/GradeTool/nl/docs/release/20230530/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Nieuwe functionaliteiten in deze release:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;De people picker toont nu ook emailadressen (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/90&#34;&gt;#90&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Het is mogelijk om bij individuele vakken de tentamendatum in bulk te importeren via een Excel import (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/115&#34;&gt;#115&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;De titels van de cijferlijst tabel blijven bovenaan plakken als er naar beneden wordt gescrolld (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/145&#34;&gt;#145&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Bij individuele vakken wordt automatisch het cijfer ingevuld als er een correctie wordt gedaan zodat de velden met extra informatie gelijk openklappen (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/149&#34;&gt;#149&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
     
     <item>
       <title>Docs: Release 2022-11-14</title>

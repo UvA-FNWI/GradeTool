@@ -35,9 +35,9 @@ Na koppelen kunnen toetsen uit de systemen worden toegevoegd via de 'bestaand on
 
 Voor de laatste twee systemen wordt niet alleen het cijfer van de toets zelf binnengehaald, maar ook van alle vragen. De cijferberekening uit het bronsysteem wordt dus niet gebruikt, maar er wordt een aparte cijferberekening gedaan. Hierbij wordt de kansscore bij MC-vragen op een standaardmanier meegewogen:
 
-![Scoreberekening](/score_calc.nl.png)
+![Scoreberekening](/TvO_formule.png)
 
-Hier is "score" de score van de student en "punten" het totaal aantal te behalen punten.
+Hier is "s" de score van de student en "punten" het totaal aantal te behalen punten.
 
 ### Kopiëren tussen jaren
 Bij het openen van de tool voor een vak waarbij er nog geen cijferberekening is ingesteld, maar er wel een instantie bestaat in het vorige jaar met een berekening, biedt de tool aan om deze berekening te kopiëren. Hierbij worden de assignments uit Canvas gematcht op naam, dus dit werkt alleen als deze (nog) niet zijn aangepast. Onderdelen uit andere systemen worden momenteel niet gekopieerd.
