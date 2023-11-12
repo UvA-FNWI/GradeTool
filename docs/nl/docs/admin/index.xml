@@ -74,6 +74,29 @@
     </item>
     
     <item>
+      <title>Docs: Ans-koppeling</title>
+      <link>https://uva-fnwi.github.io/GradeTool/nl/docs/admin/ans/</link>
+      <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://uva-fnwi.github.io/GradeTool/nl/docs/admin/ans/</guid>
+      <description>
+        
+        
+        &lt;p&gt;De CRA heeft de mogelijkheid om vakken te synchroniseren naar Ans via de &amp;ldquo;Create course in Ans&amp;rdquo; optie in het instellingenvenster per vak.
+De koppeling maakt het vak (en eventueel de opleiding) aan in Ans. Indien er een vakcoördinator bekend is en deze in Ans bestaat, wordt deze direct koppeling.&lt;/p&gt;
+&lt;p&gt;De koppeling kan vervolgens de volgende data synchroniseren:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Groepen: elke groep uit GLASS wordt aangemaakt als groep in Ans, met bijbehorende studenten.&lt;/li&gt;
+&lt;li&gt;Studenten: studenten worden aan het vak gekoppeld en indien nodig aangemaakt. Studenten met extra tijd krijgen een vinkje in Ans.&lt;/li&gt;
+&lt;li&gt;Tentamens: op basis van het rooster worden digitale aangemaakt in Ans met de bijbehorende instellingen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Groepen en studenten worden elke dag automatisch bijgewerkt.&lt;/p&gt;
+&lt;p&gt;Indien een vak is doorgezet naar Ans is het ook direct mogelijk om assignments uit Ans op te nemen in de cijferberekening.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Rollen</title>
       <link>https://uva-fnwi.github.io/GradeTool/nl/docs/admin/roles/</link>
       <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>

@@ -1,6 +1,6 @@
 ---
 title: "Beheerschermen"
-linkTitle: "Beheerschermen"
+linkTitle: "Beheer"
 description: "Overzicht van de werking van de beheerschermen voor onderwijsadministraties"
 date: 2022-11-12
 weight: 4

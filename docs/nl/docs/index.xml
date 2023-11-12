@@ -5,7 +5,7 @@
     <description>Recent content in Documentatie on Cijferregistratieapplicatie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>nl</language>
-    <lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Nov 2023 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="https://uva-fnwi.github.io/GradeTool/nl/docs/index.xml" rel="self" type="application/rss+xml" />
     
@@ -179,6 +179,29 @@
 &lt;li&gt;Bij vakken waarbij er nog cijferlijsten openstaan om ondertekend te worden, wordt er bovenaan het cijferscherm een banner getoond om docenten daarop te wijzen (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/97&#34;&gt;#97&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Het is mogelijk voor beheerders of via het beheerscherm doorgeboekte cijfers te verwijderen uit SIS (&lt;a href=&#34;https://github.com/UvA-FNWI/GradeTool/issues/57&#34;&gt;#57&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Ans-koppeling</title>
+      <link>https://uva-fnwi.github.io/GradeTool/nl/docs/admin/ans/</link>
+      <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://uva-fnwi.github.io/GradeTool/nl/docs/admin/ans/</guid>
+      <description>
+        
+        
+        &lt;p&gt;De CRA heeft de mogelijkheid om vakken te synchroniseren naar Ans via de &amp;ldquo;Create course in Ans&amp;rdquo; optie in het instellingenvenster per vak.
+De koppeling maakt het vak (en eventueel de opleiding) aan in Ans. Indien er een vakcoördinator bekend is en deze in Ans bestaat, wordt deze direct koppeling.&lt;/p&gt;
+&lt;p&gt;De koppeling kan vervolgens de volgende data synchroniseren:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Groepen: elke groep uit GLASS wordt aangemaakt als groep in Ans, met bijbehorende studenten.&lt;/li&gt;
+&lt;li&gt;Studenten: studenten worden aan het vak gekoppeld en indien nodig aangemaakt. Studenten met extra tijd krijgen een vinkje in Ans.&lt;/li&gt;
+&lt;li&gt;Tentamens: op basis van het rooster worden digitale aangemaakt in Ans met de bijbehorende instellingen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Groepen en studenten worden elke dag automatisch bijgewerkt.&lt;/p&gt;
+&lt;p&gt;Indien een vak is doorgezet naar Ans is het ook direct mogelijk om assignments uit Ans op te nemen in de cijferberekening.&lt;/p&gt;
 
       </description>
     </item>
