@@ -49,7 +49,7 @@ Voor cijferlijsten die nog niet volledig in SIS zijn verwerkt is het mogelijk om
 Let op: als de cijferlijst al deels is doorgeboekt en je past daarna de toetsdatum aan dan komt de nieuwe toetsdatum mee met alle daarna doorgeboekte cijfers. In SIS bestaan dus verschillende toetsdata voor dit vak.
 
 Per cijfer zie je de verwerkingsstatus, met een mouseover met meer informatie (bijv. in het geval van een fout wat er precies fout is gegaan). Er worden een aantal standaardfouten getoond:
-- Kan geen studieactiviteit aanmaken. Het is niet mogelijk om de benodigde T-activiteit aan te maken, bijv. doordat het studiedeel op inactief staat.
+- Kan geen studieactiviteit aanmaken. Het is niet mogelijk om de benodigde Y-activiteit aan te maken, bijv. doordat het studiedeel op inactief staat.
 - Student heeft geen actieve inschrijving. De student is niet actief voor inschrijving in de betreffende periode.
 - De tentamendatum valt buiten de sessie. De opgegeven tentamendatum komt niet overeen met de sessie van het vak.
 - Student heeft al een vrijstelling voor het vak. Als er op enig eerder moment een vrijstelling is ingevoerd voor deze student, dan worden NAP en NAV niet verwerkt.

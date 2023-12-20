@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://uva-fnwi.github.io/GradeTool/nl/docs/constraints/</loc>
+    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://uva-fnwi.github.io/GradeTool/nl/docs/release/20230530/</loc>
     <lastmod>2023-05-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -9,9 +12,6 @@
     <lastmod>2022-11-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://uva-fnwi.github.io/GradeTool/nl/docs/release/20220530/</loc>
-    <lastmod>2022-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://uva-fnwi.github.io/GradeTool/nl/docs/constraints/</loc>
     <lastmod>2022-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://uva-fnwi.github.io/GradeTool/nl/docs/admin/settings/</loc>
@@ -36,13 +36,10 @@
     <lastmod>2022-04-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://uva-fnwi.github.io/GradeTool/nl/docs/</loc>
-    <lastmod>2023-11-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://uva-fnwi.github.io/GradeTool/nl/docs/admin/ans/</loc>
-    <lastmod>2023-11-12T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://uva-fnwi.github.io/GradeTool/nl/</loc>
-    <lastmod>2023-11-12T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -53,6 +50,9 @@
                 hreflang="nl"
                 href="https://uva-fnwi.github.io/GradeTool/nl/"
                 />
+  </url><url>
+    <loc>https://uva-fnwi.github.io/GradeTool/nl/docs/admin/ans/</loc>
+    <lastmod>2023-11-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://uva-fnwi.github.io/GradeTool/nl/docs/admin/roles/</loc>
     <lastmod>2022-11-12T00:00:00+00:00</lastmod>
