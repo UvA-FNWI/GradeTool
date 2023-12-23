@@ -236,7 +236,12 @@
 <h3 id="getoonde-studenten">Getoonde studenten</h3>
 <p>Alle studenten die voor het vak staan ingeschreven in GLASS worden getoond. Studenten die afgemeld zijn van een vak, verdwijnen van de lijst indien er geen eindcijfer is opgevoerd (anders blijven ze staan als handmatig toegevoegde studenten). Er wordt momenteel niet gekeken naar de status van de inschrijving voor de opleiding.</p>
 <h3 id="beoordelingsvoet">Beoordelingsvoet</h3>
-<p>De mogelijke beoordelingen worden bepaald door de geldige rij met waarden van de beoordelingsvoet in SIS (bijv. HLF = halve cijfers, AN = AVV/NAV, DC1 = decimaal 1 cijfer). Cijfers tussen de 5 en 6 kunnen niet gegeven worden indien het vak een effective date voor 1 september 2018 heeft in SIS. Voor vakken met de NON-beoordelingsvoet is het niet mogelijk om cijfers in te leveren.</p>
+<p>De mogelijke beoordelingen worden bepaald door de geldige rij met waarden van de beoordelingsvoet in SIS (bijv. HLF = halve cijfers, AN = AVV/NAV, DC1 = decimaal 1 cijfer). Cijfers tussen de 5 en 6 kunnen niet gegeven worden indien het vak een effective date voor 1 september 2018 heeft in SIS. Voor vakken met de NON-beoordelingsvoet is het niet mogelijk om cijfers in te leveren. Bij het importeren of berekenen van cijfers wordt er afgerond conform de beoordelingsvoet, met daarbij de algemene regels:</p>
+<ul>
+<li>Cijfers hoger dan 10 worden afgerond naar 10</li>
+<li>Cijfers lager dan 1 worden afgerond naar 1</li>
+<li>Een cijfers lager dan 5.5 wordt nooit een voldoende</li>
+</ul>
 <h3 id="tentamendatum">Tentamendatum</h3>
 <p>De toetsdatum wordt als volgt bepaald:</p>
 <ol>
@@ -277,7 +282,7 @@
 <p><img src="https://uva-fnwi.github.io/GradeTool/course_setup.nl.png" alt="Beheersinstellingen"></p>
 <p>Het is dan niet voor docenten mogelijk om cijfers in te leveren. Datzelfde geldt voor vakken met beoordelingsvoet NON in SIS.</p>
 <h3 id="hulp-bij-problemen">Hulp bij problemen</h3>
-<p>Problemen met de tool kunnen gemeld worden via de datanose-fnwi mailbox of via de TOPdesk behandelaarsgroep &lsquo;FNWI DataNose beheer&rsquo;.</p>
+<p>Problemen met de tool kunnen gemeld worden bij voorkeur via de datanose-fnwi mailbox en anders via de TOPdesk behandelaarsgroep &lsquo;FNWI DataNose beheer&rsquo;.</p>
 
         <div class="section-index">
     
