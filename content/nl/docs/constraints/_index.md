@@ -19,7 +19,10 @@ Wijzigingen aan het vak in UvANose (bijv. nieuwe instanties, examinatoren) worde
 Alle studenten die voor het vak staan ingeschreven in GLASS worden getoond. Studenten die afgemeld zijn van een vak, verdwijnen van de lijst indien er geen eindcijfer is opgevoerd (anders blijven ze staan als handmatig toegevoegde studenten). Er wordt momenteel niet gekeken naar de status van de inschrijving voor de opleiding.
 
 ### Beoordelingsvoet
-De mogelijke beoordelingen worden bepaald door de geldige rij met waarden van de beoordelingsvoet in SIS (bijv. HLF = halve cijfers, AN = AVV/NAV, DC1 = decimaal 1 cijfer). Cijfers tussen de 5 en 6 kunnen niet gegeven worden indien het vak een effective date voor 1 september 2018 heeft in SIS. Voor vakken met de NON-beoordelingsvoet is het niet mogelijk om cijfers in te leveren.
+De mogelijke beoordelingen worden bepaald door de geldige rij met waarden van de beoordelingsvoet in SIS (bijv. HLF = halve cijfers, AN = AVV/NAV, DC1 = decimaal 1 cijfer). Cijfers tussen de 5 en 6 kunnen niet gegeven worden indien het vak een effective date voor 1 september 2018 heeft in SIS. Voor vakken met de NON-beoordelingsvoet is het niet mogelijk om cijfers in te leveren. Bij het importeren of berekenen van cijfers wordt er afgerond conform de beoordelingsvoet, met daarbij de algemene regels:
+- Cijfers hoger dan 10 worden afgerond naar 10
+- Cijfers lager dan 1 worden afgerond naar 1
+- Een cijfers lager dan 5.5 wordt nooit een voldoende
 
 ### Tentamendatum 
 De toetsdatum wordt als volgt bepaald:
@@ -70,4 +73,4 @@ Het is mogelijk om de tool te deactiveren voor een vak in de beheersinstellingen
 Het is dan niet voor docenten mogelijk om cijfers in te leveren. Datzelfde geldt voor vakken met beoordelingsvoet NON in SIS.
 
 ### Hulp bij problemen 
-Problemen met de tool kunnen gemeld worden via de datanose-fnwi mailbox of via de TOPdesk behandelaarsgroep 'FNWI DataNose beheer'.
+Problemen met de tool kunnen gemeld worden bij voorkeur via de datanose-fnwi mailbox en anders via de TOPdesk behandelaarsgroep 'FNWI DataNose beheer'.
