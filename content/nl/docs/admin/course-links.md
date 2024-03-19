@@ -6,7 +6,7 @@ date: 2021-03-24
 weight: 1
 ---
 
-Met de optie "Cross-list target" in het setupvenster van een cursus kan er een koppeling gemaakt worden tussen twee of meer vakken van dezelfde faculteit. Daarmee wordt er voor de gebruiker een knop getoond om tussen de gekoppelde vakken te switchen (heen en terug):
+Met de optie "Cross-list target" in het instellingenvenster van een cursus (zie) kan er een koppeling gemaakt worden tussen twee of meer vakken van dezelfde faculteit. Daarmee wordt er voor de gebruiker een knop getoond om tussen de gekoppelde vakken te switchen (heen en terug):
 
 ![Gekoppelde vakken](/linked_courses.png)
 

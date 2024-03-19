@@ -64,7 +64,7 @@
       <description>
         
         
-        &lt;p&gt;Met de optie &amp;ldquo;Cross-list target&amp;rdquo; in het setupvenster van een cursus kan er een koppeling gemaakt worden tussen twee of meer vakken van dezelfde faculteit. Daarmee wordt er voor de gebruiker een knop getoond om tussen de gekoppelde vakken te switchen (heen en terug):&lt;/p&gt;
+        &lt;p&gt;Met de optie &amp;ldquo;Cross-list target&amp;rdquo; in het instellingenvenster van een cursus (zie) kan er een koppeling gemaakt worden tussen twee of meer vakken van dezelfde faculteit. Daarmee wordt er voor de gebruiker een knop getoond om tussen de gekoppelde vakken te switchen (heen en terug):&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://uva-fnwi.github.io/GradeTool/linked_courses.png&#34; alt=&#34;Gekoppelde vakken&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Er kunnen meerdere subcursussen aan één &amp;rsquo;target&amp;rsquo; (=hoofdcursus) gekoppeld worden en het menu toont dan alle vakken. De cijferlijsten in de tool tonen altijd de studenten die in SIS ingeschreven staan voor het vak.&lt;/p&gt;
 &lt;p&gt;De rechten die een gebruiker vanuit Canvas krijgt om cijfers in te bekijken en in te voeren gelden dan ook voor alle gekoppelde cursussen. Docenten hoeven dus niet in Canvas toegang tot alle cursussen te hebben. De examinator-check bij het inleveren is onveranderd, docenten kunnen alleen cijfers inleveren voor die cursussen waarbij ze in SIS zijn gekoppeld.&lt;/p&gt;

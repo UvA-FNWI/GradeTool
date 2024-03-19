@@ -81,12 +81,17 @@ De lijst kan naar Excel worden geëxporteerd via de Excel-knop rechtsboven. Daar
 
 In dit scherm is het ook mogelijk om tentamendatums aan te passen. De hier opgegeven tentamendatum overschrijft de geïmporteerde waarde. 
 
-### Informatie per vak
+### Informatie en instellingen per vak {#course-settings}
 Door naar een vak door te klikken of via de zoekfunctie rechtsboven een vak op te zoeken op naam of studiegidsnummer en dan naar ‘Cijfers inleveren’ te gaan, kom je op de overzichtspagina per vak. Hier zie je alle ingeleverde lijsten met status: 
 
 ![Openstaand cijfer](/course_lists.nl.png)
 
 Daarnaast kun je via de optie ‘Alle cijfers tonen’ een overzicht inzien van alle ingeleverde cijfers voor dit vak in het gekozen jaar.
+
+Op deze pagina zit ook de optie 'Instellingen becijfering', met opties voor:
+- [Koppelingen met Ans]({{< relref "ans" >}}) (en andere toetssystemen)
+- [Cijferblokkades]({{< ref "constraints#blocks" >}})
+- [Gekoppelde vakken]({{< relref "course-links" >}})
 
 ### Cijfers verwijderen
 Een (facultair) beheerder kan individuele cijfers verwijderen via het moersleutel-icoontje in een ingeleverde cijferlijst, of de gehele lijst via de verwijderlink rechtsboven in het scherm. Bij verwijderen blijft het cijfer staan in de beheerschermen met status "Rejected" (rood kruis) en wordt het uit cijferscherm in Canvas en SIS verwijderd. In SIS is zichtbaar wie heeft verwijderd. Er kan opnieuw een cijfer worden ingevoerd door de docent.
