@@ -7,4 +7,4 @@ menu:
     weight: 20
 ---
 
-
+Deze documentatie is verhuisd naar [Confluence](https://confluence.ic.uva.nl/display/DATeX/Cijferregistratie).
